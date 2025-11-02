@@ -27,3 +27,13 @@ p {
 .sub-heading-color {
     background-color: var(--highlight-color);
 }
+
+.container,
+.row {
+    border: 2px solid blue;
+}
+
+.col-12 {
+    border: 2px solid green;
+    background-color: lightgrey;
+}
