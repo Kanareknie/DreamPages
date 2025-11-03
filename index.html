@@ -41,10 +41,45 @@
         <!-- Link to CSS -->
         <link rel="stylesheet" href="../assets/css/style.css">
     </head>
-    <!-- Classes on body to set to work with mt-auto on footer to ensure it always stays at the bottom of the page -->
     <body class="d-flex flex-column min-vh-100">
         <!-- Navigation -->
-        <div>Navigation</div>
+        <header>
+            <nav class="main-nav"> 
+                <!-- LEFT: Menu -->
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+           
+                <ul class="nav-menu">
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="form.html">Create your book</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About Us</a>
+                    </li>
+                </ul>
+                <!-- CENTER: Logo -->
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo-white-bg.png" alt="Logo Dream Pages" height="100">
+                </a>
+                <!-- RIGHT: Icons -->
+                <div class="nav-icons">
+                    <a href="https://facebook.co.uk" target="_blank" class="icon-link">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon-link">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
         <!-- Header with hero picture -->
         <header class="container">
             <div class="row">

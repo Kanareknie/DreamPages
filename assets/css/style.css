@@ -10,6 +10,7 @@
     --secondary-color: #800160;
     --highlight-color: #ff9473;
     --highlight-color-light: #f37499;
+    --background-colour: #ebe5e7;
 }
 
 h1 {
@@ -30,10 +31,137 @@ p {
 
 .container,
 .row {
-    border: 2px solid blue;
+    border: 1px solid beige;
 }
 
 .col-12 {
-    border: 2px solid green;
+    border: 1px solid rebeccapurple;
     background-color: lightgrey;
 }
+
+/* NAVBAR LAYOUT */
+
+.main-nav {
+    display: flex;
+    flex-grow: 0;
+    justify-content: space-between; /* left, center, right */
+    align-items: center;            /* vertical alignment */
+    background-color: #fff;
+    padding: 1px 30px;
+    z-index: 99;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 2px 7px #f37499;
+}
+
+/* Hide the checkbox (we only use it for state) */
+#nav-toggle {
+    display: none;
+}
+
+/* Hide burger icon on desktop */
+.nav-toggle-label {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* LEFT: menu */
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    color: var(--primary-color);
+}
+
+/* CENTER: logo */
+.logo img {
+    height: 100px;
+    display: block;
+}
+
+/* RIGHT: icons */
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon-link, .nav-icons, icon-link {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-link:hover, .nav-icons:hover {
+    color: var(--primary-color);
+}
+
+/* MOBILE / TABLET NAV  */
+@media (max-width: 992px) {
+
+    .main-nav {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* Show burger icon */
+    .nav-toggle-label {
+        display: block;
+        color: var(--secondary-color);
+        margin-right: 10px;
+    }
+
+    /* Put burger + logo on the top row */
+    .nav-toggle-label,
+    .logo {
+        order: 1;
+    }
+
+    /* Put icons on the right in the top row */
+    .nav-icons {
+        order: 2;
+    }
+
+    /* Menu goes full width below */
+    .nav-menu {
+        order: 3;
+        width: 100%;
+        flex-direction: column;
+        gap: 5
+        px;
+        margin-top: 2px;
+        display: none;            /* hidden by default */
+        background-color: #fff;
+        padding: 2px 0;
+    }
+
+    .nav-menu li {
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    /* When checkbox is checked, show the menu */
+    #nav-toggle:checked + .nav-toggle-label + .nav-menu {
+        display: flex;
+    }
+}
+
+
