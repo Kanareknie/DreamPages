@@ -44,13 +44,12 @@
     <body class="d-flex flex-column min-vh-100">
         <!-- Navigation -->
         <header>
-            <nav class="main-nav"> 
+            <nav class="main-nav">
                 <!-- LEFT: Menu -->
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-           
+                <input type="checkbox" id="nav-toggle" name="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
                 <ul class="nav-menu">
                     <li>
                         <a href="index.html" class="active">Home</a>
@@ -100,17 +99,27 @@
                 </div>
             </section>
         </main>
-        <!-- Footer -->
-        <!-- mt-auto added to push footer to the bottom of the page -->
-        <footer class="mt-auto">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12">
-                        <!-- Links info -->
-                        <div class="col-12 col-md-6 col-xl-4">Social links</div>
-                        <div class="col-12 col-md-6 col-xl-4">Social links</div>
-                    </div>
-                </div>
+        <!-- Footer - Bootstrap -->
+        <footer>
+            <div class="container-footer">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <div class="footer-info2">All rights reserved. This website is a student project created for educational purposes only.</div>
+                <div class="footer-info2">@2025 Katarzyna Gawronska</div>
             </div>
         </footer>
         <!-- Bootstrap JS script -->
