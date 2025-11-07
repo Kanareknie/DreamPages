@@ -65,6 +65,14 @@ p {
     
 }
 
+.p-white-bg {
+
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+
 .sub-heading-color {
     background-color: var(--highlight-color);
 }
@@ -235,6 +243,7 @@ p {
     
 }
 
+
 #feedback-sign {
     font-size: 0.6rem;
 
@@ -250,18 +259,18 @@ i {
     justify-items: left;
     justify-content: space-between;
     gap: 10px;
-    background-image: url("../images/child-with-book-2.jpg");
 
 }
 
 
 .card {
-    width: 50%;
-    padding: 5px 5px 5px 5px;
+    width: 100%;
+    
     margin: 0;
-    font-size: 0.75em;
+    font-size: 1rem;
     margin-bottom: 20px;;
-    background-color: #1d191ccb;
+    background-color: #800160;
+    
 }
 
 .card-icon {
@@ -270,7 +279,7 @@ i {
 }
 
 .reasons-container > h2 {
-    color: #ffffff;
+    color: #f0205b
 }
 
 .card-title > h3, p {
