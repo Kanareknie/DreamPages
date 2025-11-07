@@ -50,6 +50,14 @@ h2 {
     padding: 20px;
 }
 
+h3 {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 20px;
+
+}
+
 p {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
@@ -224,6 +232,7 @@ p {
     border: 1px solid #f0205b;
     box-shadow: 1px 5px #ebe5e7;
     
+    
 }
 
 #feedback-sign {
@@ -233,7 +242,39 @@ p {
 
 i {
     color: #ff9473;
+}
 
+/* Reasons */
+
+.reasons-container {
+    justify-items: left;
+    justify-content: space-between;
+    gap: 10px;
+    background-image: url("../images/child-with-book-2.jpg");
+
+}
+
+
+.card {
+    width: 50%;
+    padding: 5px 5px 5px 5px;
+    margin: 0;
+    font-size: 0.75em;
+    margin-bottom: 20px;;
+    background-color: #1d191ccb;
+}
+
+.card-icon {
+    color: #ebd0d8;
+    
+}
+
+.reasons-container > h2 {
+    color: #ffffff;
+}
+
+.card-title > h3, p {
+    color: #ebd0d8;
 }
 
 /* --------------------------------------- Gallery page ------------------------------------------------*/
