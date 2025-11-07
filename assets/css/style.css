@@ -221,7 +221,7 @@ p {
 
 /* --------------------------------------- Home page ------------------------------------------------*/
 
-/* Feedback  */
+/* Feedback section */
 
 .feedback-container {
     display: flex;
@@ -253,7 +253,7 @@ i {
     color: #ff9473;
 }
 
-/* Reasons */
+/* Reasons section*/
 
 .reasons-container {
     justify-items: left;
@@ -262,20 +262,16 @@ i {
 
 }
 
-
 .card {
     width: 100%;
-    
     margin: 0;
     font-size: 1rem;
     margin-bottom: 20px;;
     background-color: #800160;
-    
 }
 
 .card-icon {
     color: #ebd0d8;
-    
 }
 
 .reasons-container > h2 {
@@ -285,6 +281,27 @@ i {
 .card-title > h3, p {
     color: #ebd0d8;
 }
+
+/* Place an order section */
+
+.row-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* Place an order section */
+
+.row-list-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;  
+    padding: 15px;
+    margin: 5px;
+}
+
 
 /* --------------------------------------- Gallery page ------------------------------------------------*/
 
