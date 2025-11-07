@@ -26,7 +26,7 @@ main {
 
 /*  CSS Variables */
 :root {
-    --primary-font: 'Shrikhand';
+    --primary-font: 'Shrikhand' regular;
     --secondary-font: 'Montserrat';
     --primary-color: #f0205b;
     --secondary-color: #800160;
@@ -38,13 +38,23 @@ main {
 h1 {
     font-family: var(--primary-font);
     color: var(--primary-color);
+    text-align: center;
+    padding: 20px;
     
+}
+
+h2 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 20px;
 }
 
 p {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
-    border: 2px solid var(--secondary-color);
+    text-align: center;
+    
 }
 
 .sub-heading-color {
@@ -53,21 +63,23 @@ p {
 
 .container,
 .row {
-    border: 1px solid beige;
+    background-color: #ffffff;
+    margin-top: 20px;
 
 }
 
 .col-12 {
-    border: 1px solid rebeccapurple;
+    
     background-color: lightgrey;
 }
 
 .col-5 {
-    border: 1px solid rebeccapurple;
+    
     background-color: lightgrey;
 }
 
-/* NAVBAR LAYOUT */
+/* --------------------------------------- NAVBAR LAYOUT ------------------------------------------------*/
+
 
 .main-nav {
     display: flex;
@@ -191,7 +203,33 @@ p {
     }
 }
 
-/* Gallery page */
+/* --------------------------------------- Home page ------------------------------------------------*/
+
+/* Feedback  */
+
+.feedback-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.feedback-card {
+
+    width: 50%;
+    padding-top: 10px;
+    margin: 0;
+    border-radius: 10px;
+    font-size: 0.75em;
+    border: 1px solid #f0205b;
+}
+
+#feedback-sign {
+    font-size: 0.6rem;
+
+}
+
+/* --------------------------------------- Gallery page ------------------------------------------------*/
 
 #row-photos img {
     width: 100%;
@@ -224,7 +262,10 @@ p {
     }
 }
 
-/* Map */
+/* --------------------------------------- FOOTER LAYOUT ------------------------------------------------*/
+
+
+/* Maps */
 
 #map-wrapper {
     
@@ -235,7 +276,6 @@ p {
     
 }
 
-/* Footer */
 
 /* Contains links */
 .container-footer {
