@@ -17,6 +17,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: #ffffff !important;
 
 }
 
@@ -96,12 +97,12 @@ p {
 
 .col-12 {
 
-    background-color: lightgrey;
+    background-color: #ffffff;
 }
 
 .col-5 {
 
-    background-color: lightgrey;
+    background-color: ffffff;
 }
 
 /* --------------------------------------- NAVBAR LAYOUT ------------------------------------------------*/
@@ -422,6 +423,69 @@ p {
     gap: 50px;
 }
 
+/* Opening times and address */
+
+/* Contact Section Layout */
+.contact-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Cards for address and times */
+.contact-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Icon */
+.contact-icon {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.text-contact-home {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+/* Table for times */
+.opening-hours {
+  width: 100%;
+  max-width: 260px;
+  margin: 10px auto 5px;
+  border-collapse: collapse;
+}
+
+.opening-hours th,
+.opening-hours td {
+  padding: 4px 8px;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  text-align: left;
+}
+
+.opening-hours th {
+  font-weight: 600;
+}
+
+.opening-hours tr + tr {
+  border-top: 1px solid #f0d0dc;
+}
+
+.opening-note {
+  font-size: 0.8rem;
+  margin-top: 8px;
+  color: var(--secondary-color);
+}
 
 
 /* --------------------------------------- Gallery page ------------------------------------------------*/
@@ -468,7 +532,6 @@ p {
     height: 367px;
     background-color: #ebe5e7;
     border: 0;
-
 }
 
 
@@ -483,7 +546,6 @@ p {
 /* Links style */
 .nav-link {
     color: #800160;
-
 }
 
 /* Contains info */
@@ -497,14 +559,10 @@ p {
     text-align: center;
     padding: 10px;
     gap: 8px;
-
-
 }
 
 /* Style of footer info */
 .footer-info2 {
     font-family: var(--secondary-font);
     font-size: 12px;
-
-
 }
