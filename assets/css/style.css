@@ -528,6 +528,12 @@ p {
     margin: 2px;
 }
 
+.form-box {
+    background-color: #8001607d;
+    border-radius: 10px;
+}
+
+
 /* --------------------------------------- Gallery page ------------------------------------------------*/
 
 .row-photos img {
