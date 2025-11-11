@@ -509,6 +509,23 @@ p {
 
 .form-title-text {
     color: #800160;
+    background-color: #800160;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+    font-weight: 500;
+    
+}
+
+.form-section {
+    
+    border-radius: 10px;
+    border: 1px solid #800160;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+    margin: 2px;
 }
 
 /* --------------------------------------- Gallery page ------------------------------------------------*/
