@@ -719,7 +719,27 @@
                             <div class="form-box">
                                 <h3>Almost Done!</h3>
                                 <p>Please review your answers, accept our terms and conditions, and submit your magical story request.</p>
-                                <!-- You can add real checkboxes & text here later -->
+                                <!-- Upload picture  -->
+                                <div class="mb-3">
+                                    <label for="uploadPictureformFile" class="form-label">Please upload your Child's picture below</label>
+                                    <input class="form-control" type="file" id="uploadPictureformFile">
+                                </div>
+                                <!-- Terms and conditions -->
+                                <div class="form-check mt-4">
+                                    <input
+                                        class="form-check-input"
+                                        type="checkbox"
+                                        id="agree"
+                                        required
+                                    >
+                                    <label class="form-check-label" for="agree">
+                                        I have read and agree to the
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#terms-modal">Terms & Conditions</a>
+                                        and
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#privacy-modal">Privacy Policy</a>
+                                        .
+                                    </label>
+                                </div>
                                 <button type="submit" class="btn btn-warning button-color">Create My Book</button>
                             </div>
                         </form>
