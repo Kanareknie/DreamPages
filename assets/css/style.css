@@ -332,7 +332,7 @@ i {
 
 .steps-image {
     width: 98%;
-    background-image: url("/assets/images/books1.png");
+    background-image: url("assets/images/books1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
