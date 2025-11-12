@@ -520,7 +520,7 @@ p {
 .form-section {
     
     border-radius: 10px;
-    border: 1px solid #800160;
+    border: 1px solid #ff9473;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -532,6 +532,7 @@ p {
     background-color: #8001607d;
     border-radius: 10px;
 }
+
 
 
 /* --------------------------------------- Gallery page ------------------------------------------------*/
