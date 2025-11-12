@@ -91,6 +91,11 @@
                         <p class="p-white-bg">Bring your child’s imagination to life with a personalised story made just for them.</p>
                     </div>
                     <img src="assets/images/hero.png" alt="Smiled child reading the book">
+                    <!-- Audio -->
+                    <audio controls class="audio-controls">
+                        <source src="assets/audio/background-music.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
                     <!-- Feedback on the picture -->
                     <h2>Feedback from our customers</h2>
                     <div class="feedback-container">
@@ -435,7 +440,12 @@
                         >Terms & Conditions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contact-modal">Contact us</a>
+                        <a
+                            class="nav-link"
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#contact-modal"
+                        >Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -770,8 +780,11 @@
                         <p>
                             (We will not share your information with anyone.)
                         </p>
-                        <p><input type="radio"><em>I give my consent.</em></p>
-                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Send Message</button>
+                        <p>
+                            <input type="radio">
+                            <em>I give my consent.</em>
+                        </p>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Send Message</button>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

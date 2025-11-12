@@ -91,6 +91,7 @@ p {
 
 }
 
+
 .p-white-bg {
 
     font-family: var(--secondary-font);
@@ -253,6 +254,7 @@ icon-link {
 
 /* --------------------------------------- Home page ------------------------------------------------*/
 
+
 /* Feedback section */
 
 .feedback-container {
@@ -311,8 +313,7 @@ i {
     color: #f0205b
 }
 
-.card-title>h3,
-p {
+.card-title>h3, .card .card-text p {
     color: #ebd0d8;
 }
 
@@ -321,11 +322,11 @@ p {
 
 .container-order {
   width: 100%;
-  background-color: #fdfdfd; /* optional, just to see area */
+  background-color: #fdfdfd;
   display: flex;
   flex-direction: column;
-  align-items: center; /* center inner blocks horizontally */
-  gap: 20px;           /* space between image + list */
+  align-items: center; 
+  gap: 20px;           
   padding: 20px 0;
 }
 
@@ -336,9 +337,9 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-  justify-content: center;   /* center rows vertically in the picture */
-  align-items: center;       /* center rows horizontally */
-  padding: 40px 0;           /* some vertical breathing room */
+  justify-content: center;   
+  align-items: center;       
+  padding: 40px 0;           
   border-radius: 10px; 
  
 }
