@@ -793,20 +793,9 @@
                                 <textarea class="form-control" id="contractFormControlTextarea1" rows="10"></textarea>
                             </div>
                             <h6>Consent to Contact:</h6>
-                            <p>I agree that my contact details may be used to reply to my message.</p>
-                            <p>
-                                (We will not share your information with anyone.)
-                            </p>
-                            <p>
-                                <input
-                                    type="radio"
-                                    name="contact-consent"
-                                    value="yes"
-                                    required
-                                >
-                                <em>I give my consent.</em>
-                            </p>
-                            <button type="submit" class="btn btn-secondary">Send Message</button>
+                            <p>By submitting this form, you confirm that you've read and agree to our Terms & Conditions and Privacy Policy.</p>
+                            
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#submit-modal" data-bs-dismiss="modal">Send Message</button>
                         </form>
                     </div>
                     <div class="modal-footer">
@@ -903,6 +892,35 @@
                                 </p>
                             </li>
                         </ol>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Succesful sumbit the form message - Modal - Bootstrap -->
+        <div
+            class="modal fade"
+            id="submit-modal"
+            tabindex="-1"
+            aria-labelledby="sumbitModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="submitModalLabel">Contact Us</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Form sumbit message -->
+                        <p>Your form has been successfully sent. We'll get back to you shortly!</p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
