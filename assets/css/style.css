@@ -332,7 +332,7 @@ i {
 
 .steps-image {
     width: 100%;
-    background-image: url("/assets/images/desk1.png");
+    background-image: url('desk1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -407,7 +407,7 @@ i {
 .question-home-container {
     width: 100%;
     height: 400px;
-    background-image: url("/assets/images/question-picture2.jpg");
+    background-image: url('question-picture2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
