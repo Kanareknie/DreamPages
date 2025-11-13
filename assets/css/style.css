@@ -331,8 +331,8 @@ i {
 }
 
 .steps-image {
-    width: 98%;
-    background-image: url("assets/images/books1.png");
+    width: 100%;
+    background-image: url("/assets/images/desk1.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -347,7 +347,7 @@ i {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 70%;
+    width: 90%;
     margin: 0;
     
     
