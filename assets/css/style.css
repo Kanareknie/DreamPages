@@ -601,13 +601,6 @@ i {
 
 }
 
-.card-about-us > img {
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
-    border-radius: 5%;
-    
-}
 
 .about-us-card-p {
     color:#800160;
@@ -616,7 +609,17 @@ i {
     padding-right: 5px;
 }
 
+.mini-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
 
+.small-picture-card {
+    width: 50%;
+    padding: 10px;
+}
 /* --------------------------------------- FOOTER LAYOUT ------------------------------------------------*/
 
 
