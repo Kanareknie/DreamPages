@@ -115,32 +115,507 @@
             </section>
         </main>
        <!-- Footer - Bootstrap -->
-        <footer>
+            <!-- Navigation bar with links -->
             <div class="container-footer">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Delivery</a>
+                        <a
+                            class="nav-link"
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#delivery-modal"
+                        >Delivery & Return Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Returns</a>
+                        <a
+                            class="nav-link"
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#privacy-modal"
+                        >Privacy Policy</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Privacy Policy</a>
+                        <a
+                            class="nav-link"
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#terms-modal"
+                        >Terms & Conditions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Terms & Conditions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
+                        <a
+                            class="nav-link"
+                            href="#"
+                            data-bs-toggle="modal"
+                            data-bs-target="#contact-modal"
+                        >Contact us</a>
                     </li>
                 </ul>
             </div>
+            <!-- License details -->
             <div class="footer-info">
                 <div class="footer-info2">All rights reserved. This website is a student project created for educational purposes only.</div>
                 <div class="footer-info2">@2025 Katarzyna Gawronska</div>
             </div>
         </footer>
+        <!-- Modals section - Bootstrap -->
+        <!-- Delivery modal -->
+        <div
+            class="modal fade"
+            id="delivery-modal"
+            tabindex="-1"
+            aria-labelledby="deliveryModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="deliveryModalLabel">Delivery & Returns Information</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Delivery information -->
+                        <h5>Delivery</h5>
+                        <ul>
+                            <li>Each personalised storybook is created individually for your child.</li>
+                            <li>Production usually takes 7–10 days after receiving all details and your approval of the draft.</li>
+                            <li>You will receive a digital version (PDF) by email first.</li>
+                            <li>
+                                If you order a printed copy, delivery time depends on your location:
+                                <ul>
+                                    <li>UK & Europe: 5–10 business days</li>
+                                    <li>Worldwide: 10–20 business days</li>
+                                </ul>
+                            </li>
+                            <li>You will receive a confirmation email once your order has been shipped.</li>
+                        </ul>
+                        <!-- Returns information -->
+                        <h5>Returns & Replacements</h5>
+                        <p>Because every book is custom-made and unique, we are unable to accept general returns or exchanges.</p>
+                        <p>However, we always want you to be happy with your story!</p>
+                        <p>We will offer a free replacement or digital correction if:</p>
+                        <ul>
+                            <li>There’s a printing error or damaged item on arrival.</li>
+                            <li>We’ve made a mistake in your personalised details.</li>
+                        </ul>
+                        <p>If you notice an issue, please contact us within 7 days of receiving your order at [your email address] and include your order number and a short description (or a photo, if relevant).</p>
+                        <h5>Cancellations</h5>
+                        <p>
+                            You may cancel your order within 24 hours of placing it — before we begin creating your personalised story.
+                            Once the story design has started, cancellation may not be possible.
+                        </p>
+                        <h5>Contact</h5>
+                        <p>
+                            If you have any questions about your delivery or order, please reach out to us
+                            <!-- Open new modal for completing contact us form -->
+                            <a
+                                href="#"
+                                data-bs-toggle="modal"
+                                data-bs-target="#contact-modal"
+                                data-bs-dismiss="modal"
+                            >here</a>
+                        </p>
+                        <p>We’ll respond as soon as possible — usually within 1–2 working days.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Privacy Policy Modal -->
+        <div
+            class="modal fade"
+            id="privacy-modal"
+            tabindex="-1"
+            aria-labelledby="deliveryModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="privacyModalLabel">Delivery & Returns Information</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Privacy Policy information -->
+                        <h5>Privacy Policy</h5>
+                        <p>
+                            At Dream Pages, we care deeply about your privacy and the safety of your child’s information.
+                            This Privacy Policy explains how we collect, use, and protect the data you share with us.
+                        </p>
+                        <ol>
+                            <li>
+                                <h6>
+                                    Information We Collect
+                                </h6>
+                                <p>We collect only the information needed to create your personalised storybook, including:</p>
+                                <ul>
+                                    <li>Parent or guardian’s name and contact details</li>
+                                    <li>Child’s first name, age, and favourite things</li>
+                                    <li>A photo of the child (optional, for illustration purposes only)</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h6>
+                                    How We Use the Information
+                                </h6>
+                                <p>Your data is used only to create your child’s personalised storybook.</p>
+                                <p>We do not use it for marketing, nor do we share it with any third parties.</p>
+                                <p>The child’s photo is used only to create their illustrated likeness in the story.</p>
+                            </li>
+                            <li>
+                                <h6>
+                                    How We Store and Protect Data
+                                </h6>
+                                <p>You can request:</p>
+                                <ul>
+                                    <li>Access to your data</li>
+                                    <li>Correction of any information</li>
+                                    <li>Deletion of your data and photo at any time</li>
+                                    <p>
+                                        To make such a request, please contact us
+                                        <!-- Open new modal for completing contact us form -->
+                                        <a
+                                            href="#"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#contact-modal"
+                                            data-bs-dismiss="modal"
+                                        >here</a>
+                                        .
+                                    </p>
+                                </ul>
+                            </li>
+                            <li>
+                                <h6>
+                                    Consent
+                                </h6>
+                                <p>By submitting your details through our form, you give permission for your data and your child’s photo to be processed solely for creating the personalised storybook.</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Terms & Conditions Modal -->
+        <div
+            class="modal fade"
+            id="terms-modal"
+            tabindex="-1"
+            aria-labelledby="termsModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="termsModalLabel">Terms & Conditions</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Terms & Conditions information -->
+                        <h5>Terms & Conditions</h5>
+                        <p>
+                            Welcome to Dream Pages!
+                        </p>
+                        <p>By using our website and placing an order for a personalised storybook, you agree to the following terms and conditions.</p>
+                        <p>These are designed to keep everything clear and fair for everyone.</p>
+                        <ol>
+                            <li>
+                                <h6>
+                                    Personalised Products
+                                </h6>
+                                <p>Each book is created especially for your child, based on the details you provide (name, favourite things, photo, etc.).</p>
+                                <p>Because every book is unique, it cannot be resold or returned unless there is a mistake on our part.</p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Accuracy of Information
+                                </h6>
+                                <p>Please double-check that all details you send us (such as spelling of names and preferences) are correct.</p>
+                                <p>We create the story exactly as provided, and we cannot take responsibility for errors submitted by the customer.</p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Creative Rights
+                                </h6>
+                                <p>All stories, illustrations, and designs are original works created by our team.</p>
+                                <p>
+                                    You are welcome to print, share, and enjoy your personalised book for personal use,
+                                    but reproduction or resale without permission is not allowed.
+                                </p>
+                            </li>
+                            <li>
+                                <h6>Photos and Data</h6>
+                                <p>By submitting your child’s photo or details, you give us permission to use them only for creating your personalised storybook.</p>
+                                <p>
+                                    All personal data and images are securely handled in line with our
+                                    <!-- Open new modal - privacy policy -->
+                                    <a
+                                        href="#"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#privacy-modal"
+                                        data-bs-dismiss="modal"
+                                    >Privacy Policy</a>
+                                    and deleted after your book is completed.
+                                </p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Delivery and Cancellations
+                                </h6>
+                                <p>
+                                    Please refer to our
+                                    <!-- Open new modal - delivery and return information -->
+                                    <a
+                                        href="#"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#delivery-modal"
+                                        data-bs-dismiss="modal"
+                                    >Delivery & Returns Information</a>
+                                    page for information about production times, cancellations, and refunds.
+                                We aim to deliver your book as soon as possible, but times may vary depending on your location and printing service.
+                                </p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Educational Purpose (Optional Clause)
+                                </h6>
+                                <p>
+                                    This website and service are part of a student project created for educational purposes.
+                                    No personal data will be used for commercial activity.
+                                </p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Contact Us
+                                </h6>
+                                <p>
+                                    If you have any questions, concerns, or feedback, please contact us at:
+                                    <!-- Open new modal for completing contact us form -->
+                                    <a
+                                        href="#"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#contact-modal"
+                                        data-bs-dismiss="modal"
+                                    >here</a>
+                                    .
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Us Modal -->
+        <div
+            class="modal fade"
+            id="contact-modal"
+            tabindex="-1"
+            aria-labelledby="contactModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contact Us form -->
+                        <h5>Get in Touch</h5>
+                        <p>
+                            We’d love to hear from you!
+                        </p>
+                        <p>Whether you have a question, an idea for a story, or just want to say hello — our team is always happy to help.</p>
+                        <p>You can reach us through the form below or by email at admin@dreampages.com</p>
+                        <p>We aim to reply within 1–2 working days.</p>
+                        <!-- Contact form -->
+                        <form>
+                            <div class="mb-3">
+                                <label for="contactNameFormControlInput1" class="form-label">Your Name:</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="contactNameFormControlInput1"
+                                    placeholder="Example: Kate"
+                                >
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactEmailFormControlInput1" class="form-label">Email Address:</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="contactEmailFormControlInput1"
+                                    placeholder="Example: kate123@dreampages.com"
+                                >
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactFormControlTextarea1" class="form-label">Message:</label>
+                                <textarea class="form-control" id="contractFormControlTextarea1" rows="10"></textarea>
+                            </div>
+                            <h6>Consent to Contact:</h6>
+                            <p>By submitting this form, you confirm that you've read and agree to our Terms & Conditions and Privacy Policy.</p>
+                            
+                            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#submit-modal" data-bs-dismiss="modal">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQ Modal -->
+        <div
+            class="modal fade"
+            id="faq-modal"
+            tabindex="-1"
+            aria-labelledby="faqModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="faqModalLabel">Frequently Asked Questions (FAQ)</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- FAQ information -->
+                        <h5>Frequently Asked Questions (FAQ)</h5>
+                        <p>
+                            We’re here to make your experience simple, fun, and stress-free.
+                        </p>
+                        <P>Below you’ll find answers to the most common questions parents ask about creating a personalised storybook.</P>
+                        <P>If you don’t see what you’re looking for, feel free to contact us — we’re always happy to help!</P>
+                        <p>By using our website and placing an order for a personalised storybook, you agree to the following terms and conditions.</p>
+                        <ol>
+                            <li>
+                                <h6>
+                                    How does it work?
+                                </h6>
+                                <p>You share your child’s details — name, favourite things, and photo — and our team creates a one-of-a-kind story where your child is the main character.</p>
+                            </li>
+                            <li>
+                                <h6>
+                                    How long does it take to receive the story?
+                                </h6>
+                                <p>We usually complete each personalised story within 7–10 days. You’ll receive a digital version first, and a printed copy (if ordered) shortly after.</p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Is my child’s photo safe?
+                                </h6>
+                                <p>Yes. We use your child’s photo only to create their illustrated likeness in the story. The image is stored securely and deleted once the book is finished.</p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Can I request changes?
+                                </h6>
+                                <p>
+                                    Of course! You’ll have a chance to review the draft before we finalise it.
+                                </p>
+                            </li>
+                            <li>
+                                <h6>
+                                    What if I don’t want to upload a photo?
+                                </h6>
+                                <p>
+                                    That’s totally fine. We can still create a story based on your description of your child (hair colour, age, favourite clothes, etc.).
+                                </p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Do you ship worldwide?
+                                </h6>
+                                <p>
+                                    Of course! You’ll have a chance to review the draft before we finalise it.
+                                </p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Contact Us
+                                </h6>
+                                <p>
+                                    If you have any questions, concerns, or feedback, please contact us at:
+                                    <!-- Open new modal for completing contact us form -->
+                                    <a
+                                        href="#"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#contact-modal"
+                                        data-bs-dismiss="modal"
+                                    >here</a>
+                                    .
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Succesful sumbit the form message - Modal - Bootstrap -->
+        <div
+            class="modal fade"
+            id="submit-modal"
+            tabindex="-1"
+            aria-labelledby="sumbitModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="submitModalLabel">Contact Us</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Form sumbit message -->
+                        <p>Your form has been successfully sent. We'll get back to you shortly!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Bootstrap JS script -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
