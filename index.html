@@ -217,18 +217,15 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="assets/images/child-with-book-10.jpg" class="d-block w-100" alt="Children with the book smiling">
-                        <div class="carousel-caption d-none d-md-block">
-                        </div>
+                        <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/images/child-with-book-4.jpg" class="d-block w-100" alt="baby with parent holding the book">
-                        <div class="carousel-caption d-none d-md-block">
-                        </div>
+                        <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                     <div class="carousel-item">
                         <img src="assets/images/child-with-book-9.jpg" class="d-block w-100" alt="child on the seaside reading the book">
-                        <div class="carousel-caption d-none d-md-block">
-                        </div>
+                        <div class="carousel-caption d-none d-md-block"></div>
                     </div>
                 </div>
                 <button
@@ -353,7 +350,13 @@
                                     >FAQ</a>
                                 </div>
                                 <div class="d-grid gap-2 col-6 mx-auto">
-                                    <a href="about-us.html" class="btn btn-warning button-color" type="button">Contact Us</a>
+                                    <a
+                                        href="#"
+                                        class="btn btn-warning button-color question-btn"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#contact-modal"
+                                        type="button"
+                                    >Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -766,38 +769,45 @@
                         <p>You can reach us through the form below or by email at admin@dreampages.com</p>
                         <p>We aim to reply within 1–2 working days.</p>
                         <!-- Contact form -->
-                        <div class="mb-3">
-                            <label for="contactNameFormControlInput1" class="form-label">Your Name:</label>
-                            <input
-                                type="text"
-                                class="form-control"
-                                id="contactNameFormControlInput1"
-                                placeholder="Example: Kate"
-                            >
-                        </div>
-                        <div class="mb-3">
-                            <label for="contactEmailFormControlInput1" class="form-label">Email Address:</label>
-                            <input
-                                type="email"
-                                class="form-control"
-                                id="contactEmailFormControlInput1"
-                                placeholder="Example: kate123@dreampages.com"
-                            >
-                        </div>
-                        <div class="mb-3">
-                            <label for="contactFormControlTextarea1" class="form-label">Message:</label>
-                            <textarea class="form-control" id="contractFormControlTextarea1" rows="10"></textarea>
-                        </div>
-                        <h6>Consent to Contact:</h6>
-                        <p>I agree that my contact details may be used to reply to my message.</p>
-                        <p>
-                            (We will not share your information with anyone.)
-                        </p>
-                        <p>
-                            <input type="radio">
-                            <em>I give my consent.</em>
-                        </p>
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Send Message</button>
+                        <form>
+                            <div class="mb-3">
+                                <label for="contactNameFormControlInput1" class="form-label">Your Name:</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="contactNameFormControlInput1"
+                                    placeholder="Example: Kate"
+                                >
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactEmailFormControlInput1" class="form-label">Email Address:</label>
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="contactEmailFormControlInput1"
+                                    placeholder="Example: kate123@dreampages.com"
+                                >
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactFormControlTextarea1" class="form-label">Message:</label>
+                                <textarea class="form-control" id="contractFormControlTextarea1" rows="10"></textarea>
+                            </div>
+                            <h6>Consent to Contact:</h6>
+                            <p>I agree that my contact details may be used to reply to my message.</p>
+                            <p>
+                                (We will not share your information with anyone.)
+                            </p>
+                            <p>
+                                <input
+                                    type="radio"
+                                    name="contact-consent"
+                                    value="yes"
+                                    required
+                                >
+                                <em>I give my consent.</em>
+                            </p>
+                            <button type="submit" class="btn btn-secondary">Send Message</button>
+                        </form>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
