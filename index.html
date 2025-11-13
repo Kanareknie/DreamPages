@@ -93,15 +93,22 @@
                     <img src="assets/images/hero.png" alt="Smiled child reading the book">
                     <!-- Audio -->
                     <section class="container">
-                       <div class="row col-12">
-                        <h4>Listen while you browse</h4>
-                        <p>Soft, magical background music</p>
-                    <audio controls class="audio-controls">
-                        <source src="assets/audio/background-music.mp3" type="audio/mpeg" cotrols preload="none" loop aria-label="Play background music">
-                        Your browser does not support the audio element.
-                    </audio></div> 
-                    </section> 
-                    
+                        <div class="row col-12">
+                            <h4>Listen while you browse</h4>
+                            <p>Soft, magical background music</p>
+                            <audio controls class="audio-controls">
+                                <source
+                                    src="assets/audio/background-music.mp3"
+                                    type="audio/mpeg"
+                                    cotrols
+                                    preload="none"
+                                    loop
+                                    aria-label="Play background music"
+                                >
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                    </section>
                     <!-- Feedback on the picture -->
                     <h2>Feedback from our customers</h2>
                     <div class="feedback-container">
@@ -332,7 +339,7 @@
                     </div>
                 </div>
             </section>
-            <!-- More information - link to trustpilot, link to about us -->
+            <!-- More information - link to FAQ, link to about us -->
             <section class="container">
                 <div class="row">
                     <div class="question-home-container">
@@ -343,10 +350,16 @@
                             <div class="question-cards">
                                 <!-- Buttons - Bootstrap -->
                                 <div class="d-grid gap-2 col-6 mx-auto">
-                                    <a href="form.html" class="btn btn-warning button-color question-btn" type="button">FAQ</a>
+                                    <a
+                                        href="#"
+                                        class="btn btn-warning button-color question-btn"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#faq-modal"
+                                        type="button"
+                                    >FAQ</a>
                                 </div>
                                 <div class="d-grid gap-2 col-6 mx-auto">
-                                    <a href="form.html" class="btn btn-warning button-color" type="button">Contact Us</a>
+                                    <a href="about-us.html" class="btn btn-warning button-color" type="button">Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -791,6 +804,101 @@
                             <em>I give my consent.</em>
                         </p>
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Send Message</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQ Modal -->
+        <div
+            class="modal fade"
+            id="faq-modal"
+            tabindex="-1"
+            aria-labelledby="faqModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="faqModalLabel">Frequently Asked Questions (FAQ)</h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- FAQ information -->
+                        <h5>Frequently Asked Questions (FAQ)</h5>
+                        <p>
+                            We’re here to make your experience simple, fun, and stress-free.
+                        </p>
+                        <P>Below you’ll find answers to the most common questions parents ask about creating a personalised storybook.</P>
+                        <P>If you don’t see what you’re looking for, feel free to contact us — we’re always happy to help!</P>
+                        <p>By using our website and placing an order for a personalised storybook, you agree to the following terms and conditions.</p>
+                        <ol>
+                            <li>
+                                <h6>
+                                    How does it work?
+                                </h6>
+                                <p>You share your child’s details — name, favourite things, and photo — and our team creates a one-of-a-kind story where your child is the main character.</p>
+                            </li>
+                            <li>
+                                <h6>
+                                    How long does it take to receive the story?
+                                </h6>
+                                <p>We usually complete each personalised story within 7–10 days. You’ll receive a digital version first, and a printed copy (if ordered) shortly after.</p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Is my child’s photo safe?
+                                </h6>
+                                <p>Yes. We use your child’s photo only to create their illustrated likeness in the story. The image is stored securely and deleted once the book is finished.</p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Can I request changes?
+                                </h6>
+                                <p>
+                                    Of course! You’ll have a chance to review the draft before we finalise it.
+                                </p>
+                            </li>
+                            <li>
+                                <h6>
+                                    What if I don’t want to upload a photo?
+                                </h6>
+                                <p>
+                                    That’s totally fine. We can still create a story based on your description of your child (hair colour, age, favourite clothes, etc.).
+                                </p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Do you ship worldwide?
+                                </h6>
+                                <p>
+                                    Of course! You’ll have a chance to review the draft before we finalise it.
+                                </p>
+                            </li>
+                            <li>
+                                <h6>
+                                    Contact Us
+                                </h6>
+                                <p>
+                                    If you have any questions, concerns, or feedback, please contact us at:
+                                    <!-- Open new modal for completing contact us form -->
+                                    <a
+                                        href="#"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#contact-modal"
+                                        data-bs-dismiss="modal"
+                                    >here</a>
+                                    .
+                                </p>
+                            </li>
+                        </ol>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
