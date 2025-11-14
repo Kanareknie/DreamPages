@@ -364,6 +364,9 @@ icon-link {
 
 }
 
+.feedback-card p {
+    text-align: center;
+}
 
 #feedback-sign {
     font-size: 0.6rem;
@@ -380,15 +383,16 @@ i {
     justify-items: left;
     justify-content: space-between;
     gap: 10px;
+    margin-top:20px;
 
 }
 
 .card {
     width: 100%;
+    align-items: center;
     margin: 0;
-    font-size: 1rem;
     margin-bottom: 20px;
-    ;
+    font-size: 1rem;
     background-color: #800160;
 }
 
@@ -402,6 +406,7 @@ i {
 
 .card-title>h3, .card .card-text p {
     color: #ebd0d8;
+    text-align: center;
 }
 
 
@@ -441,17 +446,19 @@ i {
 }
 
 .row-list {
+
+    width:100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
     border: 1px solid #ffffff;
-    background-color: #fff9fba4;
+    background-color: #fff9fbe5;
     color: #420332;
 }
 
 .row-list-left {
-    flex: 0 0 20%;
+    flex: 0 0 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -478,7 +485,7 @@ i {
 .row-list-text {
     color: #800160;
     padding: 5px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .button-color {
@@ -486,6 +493,7 @@ i {
     border: 2px solid #c70c63;
     color: #ffffff;
     font-weight: 570;
+    margin-bottom: 20px;
 }
 
 /* Question and contact us section */
@@ -493,7 +501,7 @@ i {
 
 .question-home-container {
     width: 100%;
-    height: 400px;
+    height: 320px;
     background-image: url(../images/question-picture2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -503,19 +511,21 @@ i {
 
 .title-question {
     display: flex;
-    height: 80%;
+    height: auto;
     flex-direction: column;
-    background-color: #ebd0d8a4;
+    background-color: #fff9fbe5;
     border: 1px solid #ffffff;
     border-radius: 5px;
-    margin-top: 60px;
+    margin-top: 40px;
+    padding: 20px 10px;
     align-items: center;
   
 }
 
 #title-question-p {
     color:#800160;
-    font-weight: 500;
+    font-weight: 400;
+    text-align: center;
 }
 
 .question-cards {
@@ -524,7 +534,6 @@ i {
     display: flex;
     width: 70%;
     justify-content: center;
-    gap: 50px;
 }
 
 /* Opening times and address */
