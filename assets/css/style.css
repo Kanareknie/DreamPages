@@ -8,7 +8,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    ;
 }
 
 /* General styles */
@@ -18,15 +17,16 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #ffffff !important;
-
 }
 
 /* Make main element take up any surplus space to push footer down */
+
 main {
     flex: 1 0 auto;
 }
 
 /*  CSS Variables */
+
 :root {
     --primary-font: 'Shrikhand' regular;
     --secondary-font: 'Montserrat';
@@ -73,7 +73,7 @@ h5 {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 h6 {
@@ -81,14 +81,16 @@ h6 {
     font-family: var(--primary-font);
     color: var(--secondary-color);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 p {
     font-family: var(--secondary-font);
     color: var(--secondary-color);
-    text-align: center;
+}
 
+.text-center {
+    text-align: center;
 }
 
 
@@ -108,8 +110,6 @@ p {
 .row {
     background-color: #ffffff;
     margin-top: 20px;
-
-
 }
 
 .col-12 {
@@ -117,14 +117,14 @@ p {
     background-color: #ffffff;
 }
 
-.col-5 {
+.col-6 {
 
-    background-color: ffffff;
-}
+    background-color: #ffffff;}
 
 /* --------------------------------------- NAVBAR LAYOUT ------------------------------------------------*/
 
 
+/* === Main nabar container === */
 .main-nav {
     display: flex;
     flex-grow: 0;
@@ -152,12 +152,11 @@ p {
     cursor: pointer;
 }
 
-/* LEFT: menu */
+/* === LEFT: menu === */
 
 .nav-menu {
     list-style: none;
     display: flex;
-    gap: 20px;
     margin: 0;
     padding: 0;
 }
@@ -174,13 +173,13 @@ p {
     color: var(--primary-color);
 }
 
-/* CENTER: logo */
+/* === CENTER: logo === */
 .logo img {
     height: 80px;
     display: block;
 }
 
-/* RIGHT: icons */
+/* === RIGHT: icons ===*/
 .nav-icons {
     display: flex;
     gap: 5px;
@@ -190,8 +189,8 @@ p {
 .nav-icons,
 icon-link {
     color: var(--secondary-color);
-    font-size: 1.2rem;
-    padding: 10px;
+    font-size: 1rem;
+    padding: 2px;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
@@ -203,19 +202,92 @@ icon-link {
     color: var(--primary-color);
 }
 
+
+
 /* MOBILE / TABLET NAV  */
 @media (max-width: 992px) {
 
     .main-nav {
         flex-wrap: wrap;
-        justify-content: space-between;
+        align-items: line;
     }
 
     /* Show burger icon */
     .nav-toggle-label {
         display: block;
         color: var(--secondary-color);
-        margin-right: 10px;
+        margin-right: 5px;
+    }
+
+    /* Put burger + logo on the top row */
+    .nav-toggle-label,
+    .logo {
+        order: 1;
+    }
+
+    /* Put icons on the right in the top row */
+    .nav-icons {
+        order: 2;
+    }
+
+    /* Menu goes full width below */
+    .nav-menu {
+        order: 3;
+        width: 100%;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 2px;
+        display: none;
+        background-color: #fff;
+        padding: 2px 0;
+    }
+
+    .nav-menu li {
+        text-align: left;
+        padding: 0 20px;
+    }
+
+    /* When checkbox is checked, show the menu */
+    #nav-toggle:checked+.nav-toggle-label+.nav-menu {
+        display: flex;
+    }
+}
+
+
+/* MOBILE EXTRA SMALL NAV  */
+@media (max-width: 400px) {
+
+    .main-nav {
+        padding: 4px 8px;
+    }
+
+    .logo img {
+        height: 40px;
+    }
+
+    .nav-icons {
+        gap: 0;
+    }
+
+    .icon-link {
+        font-size: 0.75rem;
+        padding: 2px 3px;
+    }
+
+    .nav-menu {
+        gap: 2px;
+        padding: 5px;
+    }
+
+    .nav-toggle-label i {
+        font-size: 1rem;
+    
+    }
+
+    /* Show burger icon */
+    .nav-toggle-label {
+        display: block;
+        color: var(--secondary-color);
     }
 
     /* Put burger + logo on the top row */
