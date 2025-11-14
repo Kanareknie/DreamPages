@@ -496,6 +496,13 @@ i {
     margin-bottom: 20px;
 }
 
+/* Create the book section - icons */
+
+.icon-hands {
+    font-size: 2rem;
+    color: #800160
+}
+
 /* Question and contact us section */
 
 
@@ -534,6 +541,16 @@ i {
     display: flex;
     width: 70%;
     justify-content: center;
+    gap: 10px;
+}
+
+.btn-outline-warning {
+     background-color: #ec2860;
+    border: 2px solid #c70c63;
+    color: #ffffff;
+    font-weight: 570;
+    margin-bottom: 20px;
+
 }
 
 /* Opening times and address */
