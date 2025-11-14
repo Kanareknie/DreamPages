@@ -109,7 +109,6 @@ p {
 .container,
 .row {
     background-color: #ffffff;
-    margin-top: 20px;
 }
 
 .col-12 {
@@ -119,7 +118,8 @@ p {
 
 .col-6 {
 
-    background-color: #ffffff;}
+    background-color: #ffffff;
+}
 
 /* --------------------------------------- NAVBAR LAYOUT ------------------------------------------------*/
 
@@ -257,6 +257,7 @@ icon-link {
 /* MOBILE EXTRA SMALL NAV  */
 @media (max-width: 400px) {
 
+
     .main-nav {
         padding: 4px 8px;
     }
@@ -326,6 +327,20 @@ icon-link {
 
 /* --------------------------------------- Home page ------------------------------------------------*/
 
+/* Audio */
+
+.audio-section {
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.audio-player {
+    display: block;
+    margin: 10px auto 0;
+    width: 100%;
+    max-width: 320px;
+}
 
 /* Feedback section */
 
@@ -737,3 +752,5 @@ i {
     font-family: var(--secondary-font);
     font-size: 12px;
 }
+
+/* To override Bootstrap margins */
