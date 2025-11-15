@@ -644,6 +644,7 @@ i {
 
 .form-title-text p {
     text-align: center;
+    
 }
 
 .form-summary-box {
@@ -655,6 +656,8 @@ i {
     border-radius: 10px;
     padding: 15px;
     border: 1px solid #ffb7d1;
+
+
 }
 
 .box-label {
@@ -665,12 +668,42 @@ i {
 
 .box-label label {
     font-weight: 600;
+    display: block;
+    margin-bottom: 6px;
+    font-family: var(--secondary-font);
+    color: #800160;
 }
 
-.hr-question,
-.hr-answer {
-    display: none; /* We remove all those messy lines */
+.form-label {
+    font-family: var(--secondary-font);
+    color: #800160;
 }
+
+.form-label label {
+    font-family: var(--secondary-font);
+    color: #800160;
+}
+
+.form-box-end {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ffb7d1;
+    text-align: center;
+    margin-bottom: 20px;;
+}
+
+.option-grid {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.box-group {
+    padding: 10px;
+}
+
 /* --------------------------------------- Gallery page ------------------------------------------------*/
 
 .container-gallery {
