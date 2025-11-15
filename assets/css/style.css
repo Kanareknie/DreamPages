@@ -675,6 +675,7 @@ i {
 
 .gallery-text-p {
     color: #800160;
+    text-align: center;
 }
 
 /* Media query: large or landscape phones (576px and up) */
