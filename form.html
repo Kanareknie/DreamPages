@@ -114,711 +114,727 @@
                         <!-- REAL form tag starts here -->
                         <form action="#" method="post" class="form-section">
                             <!-- ABOUT YOUR CHILD -->
-                            <h3>About Your Child</h3>
-                            <div class="form-box">
-                                <!-- Child name -->
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>Child’s Name</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="child-name"></label>
-                                    <input type="text" id="child-name" name="child-name">
-                                </div>
-                             <hr class="hr-answer">
-                                <!-- Child age -->
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>Age</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="child-age">Age:</label>
-                                    <input type="number" id="child-age" name="child-age">
-                                </div>
-                                <!-- Gender -->
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>Gender / Pronouns</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="child-gender">Gender:</label>
-                                    <select name="child-gender" id="child-gender">
-                                        <option value="Boy">Boy</option>
-                                        <option value="Girl">Girl</option>
-                                        <option value="They">They</option>
-                                        <option value="Prefer not to say">Prefer not to say</option>
-                                    </select>
-                                </div>
-                                <!-- Hair colour -->
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>Hair Colour</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="child-hair">Hair Colour:</label>
-                                    <select name="child-hair" id="child-hair">
-                                        <option value="Blonde">Blonde</option>
-                                        <option value="Brown">Brown</option>
-                                        <option value="Black">Black</option>
-                                        <option value="Red">Red</option>
-                                    </select>
-                                    <label for="child-hair-other">If other, please type here:</label>
-                                    <input type="text" id="child-hair-other" name="child-hair-other">
-                                </div>
-                                <!-- Eye colour -->
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>Eyes Colour</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="child-eye">Eyes Colour:</label>
-                                    <select name="child-eye" id="child-eye">
-                                        <option value="Blue">Blue</option>
-                                        <option value="Brown">Brown</option>
-                                        <option value="Green">Green</option>
-                                        <option value="Hazel">Hazel</option>
-                                        <option value="Grey">Grey</option>
-                                    </select>
-                                </div>
-                                <!-- Favourite colour -->
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>Favourite Colour</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="child-colour">Favourite Colour:</label>
-                                    <select name="child-colour" id="child-colour">
-                                        <option value="Pink">Pink</option>
-                                        <option value="Blue">Blue</option>
-                                        <option value="Green">Green</option>
-                                        <option value="Yellow">Yellow</option>
-                                        <option value="Purple">Purple</option>
-                                        <option value="Red">Red</option>
-                                        <option value="Orange">Orange</option>
-                                        <option value="Rainbow">Rainbow</option>
-                                    </select>
-                                    <label for="child-colour-other">If other, please type here:</label>
-                                    <input type="text" id="child-colour-other" name="child-colour-other">
+                            <div class="form-container">
+                                <div class="row">
+                                    <!-- LEFT SIDE — SUMMARY -->
+                                    <div class="col-12 col-md-4">
+                                        <div class="form-summary-box">
+                                            <h3>About Your Child</h3>
+                                            <p>
+                                                We want to get to know your little hero! These details help us shape a story 
+                    that feels truly personal, magical, and made just for them.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- RIGHT SIDE — FIELDS -->
+                                    <div class="col-12 col-md-8">
+                                        <div class="form-box">
+                                            <!-- Child name -->
+                                            <div class="box-label">
+                                                <label for="child-name">Child's Name:</label>
+                                                <input type="text" id="child-name" name="child-name">
+                                            </div>
+                                            <!-- Child age -->
+                                            <div class="box-label">
+                                                <label for="child-age">Age:</label>
+                                                <input type="number" id="child-age" name="child-age">
+                                            </div>
+                                            <!-- Gender -->
+                                            <div class="box-label">
+                                                <label for="child-gender">Gender / Pronouns:</label>
+                                                <select name="child-gender" id="child-gender">
+                                                    <option value="Boy">Boy</option>
+                                                    <option value="Girl">Girl</option>
+                                                    <option value="They">They</option>
+                                                    <option value="Prefer not to say">Prefer not to say</option>
+                                                </select>
+                                            </div>
+                                            <!-- Hair colour -->
+                                            <div class="box-label">
+                                                <label for="child-hair">Hair Colour:</label>
+                                                <select name="child-hair" id="child-hair">
+                                                    <option value="Blonde">Blonde</option>
+                                                    <option value="Brown">Brown</option>
+                                                    <option value="Black">Black</option>
+                                                    <option value="Red">Red</option>
+                                                </select>
+                                                <label for="child-hair-other">If other, please type here:</label>
+                                                <input type="text" id="child-hair-other" name="child-hair-other">
+                                            </div>
+                                            <!-- Eyes colour -->
+                                            <div class="box-label">
+                                                <label for="child-eye">Eye Colour:</label>
+                                                <select name="child-eye" id="child-eye">
+                                                    <option value="Blue">Blue</option>
+                                                    <option value="Brown">Brown</option>
+                                                    <option value="Green">Green</option>
+                                                    <option value="Hazel">Hazel</option>
+                                                    <option value="Grey">Grey</option>
+                                                </select>
+                                            </div>
+                                            <!-- Favourite colour -->
+                                            <div class="box-label">
+                                                <label for="child-colour">Favourite Colour:</label>
+                                                <select name="child-colour" id="child-colour">
+                                                    <option value="Pink">Pink</option>
+                                                    <option value="Blue">Blue</option>
+                                                    <option value="Green">Green</option>
+                                                    <option value="Yellow">Yellow</option>
+                                                    <option value="Purple">Purple</option>
+                                                    <option value="Red">Red</option>
+                                                    <option value="Orange">Orange</option>
+                                                    <option value="Rainbow">Rainbow</option>
+                                                </select>
+                                                <label for="child-colour-other">If other, please type here:</label>
+                                                <input type="text" id="child-colour-other" name="child-colour-other">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- PERSONALITY -->
-                            <h3>Your Child’s Personality</h3>
-                            <div class="form-box">
-                                <!-- Personality words -->
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>Which words describe your child best?</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="pers1">
-                                        <input
-                                            type="checkbox"
-                                            id="pers1"
-                                            name="personality"
-                                            value="Brave and curious"
-                                        >
-                                        Brave and curious
-                                    </label>
-                                    <label for="pers2">
-                                        <input
-                                            type="checkbox"
-                                            id="pers2"
-                                            name="personality"
-                                            value="Gentle and kind"
-                                        >
-                                        Gentle and kind
-                                    </label>
-                                    <label for="pers3">
-                                        <input
-                                            type="checkbox"
-                                            id="pers3"
-                                            name="personality"
-                                            value="Silly and fun"
-                                        >
-                                        Silly and fun
-                                    </label>
-                                    <label for="pers4">
-                                        <input
-                                            type="checkbox"
-                                            id="pers4"
-                                            name="personality"
-                                            value="Creative and dreamy"
-                                        >
-                                        Creative and dreamy
-                                    </label>
-                                    <label for="pers5">
-                                        <input
-                                            type="checkbox"
-                                            id="pers5"
-                                            name="personality"
-                                            value="Active and adventurous"
-                                        >
-                                        Active and adventurous
-                                    </label>
-                                    <label for="pers6">
-                                        <input
-                                            type="checkbox"
-                                            id="pers6"
-                                            name="personality"
-                                            value="Thoughtful and calm"
-                                        >
-                                        Thoughtful and calm
-                                    </label>
-                                    <label for="pers7">
-                                        <input
-                                            type="checkbox"
-                                            id="pers7"
-                                            name="personality"
-                                            value="Chatty and friendly"
-                                        >
-                                        Chatty and friendly
-                                    </label>
-                                    <label for="pers8">
-                                        <input
-                                            type="checkbox"
-                                            id="pers8"
-                                            name="personality"
-                                            value="Imaginative and artistic"
-                                        >
-                                        Imaginative and artistic
-                                    </label>
-                                </div>
-                                <!-- Favourite activity -->
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>What do they love to do most?</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="child-activity">What do they love to do most?</label>
-                                    <select name="child-activity" id="child-activity">
-                                        <option value="Reading">Reading</option>
-                                        <option value="Drawing">Drawing</option>
-                                        <option value="Building">Building</option>
-                                        <option value="Dancing">Dancing</option>
-                                        <option value="Singing">Singing</option>
-                                        <option value="Playing outside">Playing outside</option>
-                                        <option value="Sports">Sports</option>
-                                        <option value="Cooking">Cooking</option>
-                                        <option value="Exploring">Exploring</option>
-                                    </select>
-                                    <label for="child-activity-other">If other, please type here:</label>
-                                    <input type="text" id="child-activity-other" name="child-activity-other">
-                                </div>
-                                <!-- What makes them smile -->
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>What always makes them smile?</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="child-smile">What always makes them smile?</label>
-                                    <select name="child-smile" id="child-smile">
-                                        <option value="Friends">Friends</option>
-                                        <option value="Family">Family</option>
-                                        <option value="Animals">Animals</option>
-                                        <option value="Music">Music</option>
-                                        <option value="Funny stories">Funny stories</option>
-                                        <option value="Surprises">Surprises</option>
-                                        <option value="Adventures">Adventures</option>
-                                    </select>
+                            <!-- YOUR CHILD'S PERSONALITY -->
+                            <div class="form-container">
+                                <div class="row">
+                                    <!-- LEFT: SUMMARY -->
+                                    <div class="col-12 col-md-4">
+                                        <div class="form-summary-box">
+                                            <h3>Your Child’s Personality</h3>
+                                            <p>
+                                                Every hero has a unique spark. Tell us what makes your child special so we can
+                    give their story the right tone, energy, and heart.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- RIGHT: FIELDS -->
+                                    <div class="col-12 col-md-8">
+                                        <div class="form-box">
+                                            <!-- Personality words -->
+                                            <div class="box-group">
+                                                <h4>Which words describe your child best?</h4>
+                                                <p>Choose one or two that feel most like your child.</p>
+                                                <div class="option-grid">
+                                                    <label for="pers1">
+                                                        <input
+                                                            type="checkbox"
+                                                            id="pers1"
+                                                            name="personality"
+                                                            value="Brave and curious"
+                                                        >
+                                                        Brave and curious
+                                                    </label>
+                                                    <label for="pers2">
+                                                        <input
+                                                            type="checkbox"
+                                                            id="pers2"
+                                                            name="personality"
+                                                            value="Gentle and kind"
+                                                        >
+                                                        Gentle and kind
+                                                    </label>
+                                                    <label for="pers3">
+                                                        <input
+                                                            type="checkbox"
+                                                            id="pers3"
+                                                            name="personality"
+                                                            value="Silly and fun"
+                                                        >
+                                                        Silly and fun
+                                                    </label>
+                                                    <label for="pers4">
+                                                        <input
+                                                            type="checkbox"
+                                                            id="pers4"
+                                                            name="personality"
+                                                            value="Creative and dreamy"
+                                                        >
+                                                        Creative and dreamy
+                                                    </label>
+                                                    <label for="pers5">
+                                                        <input
+                                                            type="checkbox"
+                                                            id="pers5"
+                                                            name="personality"
+                                                            value="Active and adventurous"
+                                                        >
+                                                        Active and adventurous
+                                                    </label>
+                                                    <label for="pers6">
+                                                        <input
+                                                            type="checkbox"
+                                                            id="pers6"
+                                                            name="personality"
+                                                            value="Thoughtful and calm"
+                                                        >
+                                                        Thoughtful and calm
+                                                    </label>
+                                                    <label for="pers7">
+                                                        <input
+                                                            type="checkbox"
+                                                            id="pers7"
+                                                            name="personality"
+                                                            value="Chatty and friendly"
+                                                        >
+                                                        Chatty and friendly
+                                                    </label>
+                                                    <label for="pers8">
+                                                        <input
+                                                            type="checkbox"
+                                                            id="pers8"
+                                                            name="personality"
+                                                            value="Imaginative and artistic"
+                                                        >
+                                                        Imaginative and artistic
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <!-- Favourite activity -->
+                                            <div class="box-label">
+                                                <label for="child-activity">What do they love to do most?</label>
+                                                <select name="child-activity" id="child-activity">
+                                                    <option value="Reading">Reading</option>
+                                                    <option value="Drawing">Drawing</option>
+                                                    <option value="Building">Building</option>
+                                                    <option value="Dancing">Dancing</option>
+                                                    <option value="Singing">Singing</option>
+                                                    <option value="Playing outside">Playing outside</option>
+                                                    <option value="Sports">Sports</option>
+                                                    <option value="Cooking">Cooking</option>
+                                                    <option value="Exploring">Exploring</option>
+                                                </select>
+                                                <label for="child-activity-other">If other, please type here:</label>
+                                                <input type="text" id="child-activity-other" name="child-activity-other">
+                                            </div>
+                                            <!-- What makes them smile -->
+                                            <div class="box-label">
+                                                <label for="child-smile">What always makes them smile?</label>
+                                                <select name="child-smile" id="child-smile">
+                                                    <option value="Friends">Friends</option>
+                                                    <option value="Family">Family</option>
+                                                    <option value="Animals">Animals</option>
+                                                    <option value="Music">Music</option>
+                                                    <option value="Funny stories">Funny stories</option>
+                                                    <option value="Surprises">Surprises</option>
+                                                    <option value="Adventures">Adventures</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <!-- STORY PREFERENCES -->
-                            <h3>Story Preferences</h3>
-                            <!-- Story place (radio group) -->
-                            <div class="form-box">
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>Where should the story take place?</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="place1">
-                                        <input
-                                            type="radio"
-                                            id="place1"
-                                            name="storyPlace"
-                                            value="Enchanted Forest"
-                                        >
-                                        Enchanted Forest
-                                    </label>
-                                    <label for="place2">
-                                        <input
-                                            type="radio"
-                                            id="place2"
-                                            name="storyPlace"
-                                            value="Deep Ocean"
-                                        >
-                                        Deep Ocean
-                                    </label>
-                                    <label for="place3">
-                                        <input
-                                            type="radio"
-                                            id="place3"
-                                            name="storyPlace"
-                                            value="Magical Kingdom"
-                                        >
-                                        Magical Kingdom
-                                    </label>
-                                    <label for="place4">
-                                        <input
-                                            type="radio"
-                                            id="place4"
-                                            name="storyPlace"
-                                            value="Outer Space"
-                                        >
-                                        Outer Space
-                                    </label>
-                                    <label for="place5">
-                                        <input
-                                            type="radio"
-                                            id="place5"
-                                            name="storyPlace"
-                                            value="Pirate Island"
-                                        >
-                                        Pirate Island
-                                    </label>
-                                    <label for="place6">
-                                        <input
-                                            type="radio"
-                                            id="place6"
-                                            name="storyPlace"
-                                            value="Snowy Mountains"
-                                        >
-                                        Snowy Mountains
-                                    </label>
-                                    <label for="place7">
-                                        <input
-                                            type="radio"
-                                            id="place7"
-                                            name="storyPlace"
-                                            value="Fairy Village"
-                                        >
-                                        Fairy Village
-                                    </label>
-                                    <label for="place8">
-                                        <input
-                                            type="radio"
-                                            id="place8"
-                                            name="storyPlace"
-                                            value="Jungle Adventure"
-                                        >
-                                        Jungle Adventure
-                                    </label>
-                                    <label for="place9">
-                                        <input
-                                            type="radio"
-                                            id="place9"
-                                            name="storyPlace"
-                                            value="Dreamy Cloud World"
-                                        >
-                                        Dreamy Cloud World
-                                    </label>
-                                    <label for="place10">
-                                        <input
-                                            type="radio"
-                                            id="place10"
-                                            name="storyPlace"
-                                            value="Candy Land"
-                                        >
-                                        Candy Land
-                                    </label>
-                                    <label for="place11">
-                                        <input
-                                            type="radio"
-                                            id="place11"
-                                            name="storyPlace"
-                                            value="Dinosaur Valley"
-                                        >
-                                        Dinosaur Valley
-                                    </label>
-                                    <label for="place12">
-                                        <input
-                                            type="radio"
-                                            id="place12"
-                                            name="storyPlace"
-                                            value="Busy City"
-                                        >
-                                        Busy City
-                                    </label>
-                                    <label for="place13">
-                                        <input
-                                            type="radio"
-                                            id="place13"
-                                            name="storyPlace"
-                                            value="Desert Oasis"
-                                        >
-                                        Desert Oasis
-                                    </label>
-                                    <label for="place14">
-                                        <input
-                                            type="radio"
-                                            id="place14"
-                                            name="storyPlace"
-                                            value="Space Station"
-                                        >
-                                        Space Station
-                                    </label>
-                                    <label for="place15">
-                                        <input
-                                            type="radio"
-                                            id="place15"
-                                            name="storyPlace"
-                                            value="Ancient Castle"
-                                        >
-                                        Ancient Castle
-                                    </label>
+                            <div class="form-container">
+                                <div class="row">
+                                    <!-- LEFT: SUMMARY -->
+                                    <div class="col-12 col-md-4">
+                                        <div class="form-summary-box">
+                                            <h3>Story Preferences</h3>
+                                            <p>
+                                                Now for the fun part! Choose the kind of world, adventure, and mood that will
+                    make your child’s story feel like it was pulled straight from their dreams.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- RIGHT: FIELDS -->
+                                    <div class="col-12 col-md-8">
+                                        <div class="form-box">
+                                            <!-- Story place -->
+                                            <div class="box-group">
+                                                <h4>Where should the story take place?</h4>
+                                                <p>Pick the world your child would be most excited to explore.</p>
+                                                <div class="option-grid">
+                                                    <label for="place1">
+                                                        <input
+                                                            type="radio"
+                                                            id="place1"
+                                                            name="storyPlace"
+                                                            value="Enchanted Forest"
+                                                        >
+                                                        Enchanted Forest
+                                                    </label>
+                                                    <label for="place2">
+                                                        <input
+                                                            type="radio"
+                                                            id="place2"
+                                                            name="storyPlace"
+                                                            value="Deep Ocean"
+                                                        >
+                                                        Deep Ocean
+                                                    </label>
+                                                    <label for="place3">
+                                                        <input
+                                                            type="radio"
+                                                            id="place3"
+                                                            name="storyPlace"
+                                                            value="Magical Kingdom"
+                                                        >
+                                                        Magical Kingdom
+                                                    </label>
+                                                    <label for="place4">
+                                                        <input
+                                                            type="radio"
+                                                            id="place4"
+                                                            name="storyPlace"
+                                                            value="Outer Space"
+                                                        >
+                                                        Outer Space
+                                                    </label>
+                                                    <label for="place5">
+                                                        <input
+                                                            type="radio"
+                                                            id="place5"
+                                                            name="storyPlace"
+                                                            value="Pirate Island"
+                                                        >
+                                                        Pirate Island
+                                                    </label>
+                                                    <label for="place6">
+                                                        <input
+                                                            type="radio"
+                                                            id="place6"
+                                                            name="storyPlace"
+                                                            value="Snowy Mountains"
+                                                        >
+                                                        Snowy Mountains
+                                                    </label>
+                                                    <label for="place7">
+                                                        <input
+                                                            type="radio"
+                                                            id="place7"
+                                                            name="storyPlace"
+                                                            value="Fairy Village"
+                                                        >
+                                                        Fairy Village
+                                                    </label>
+                                                    <label for="place8">
+                                                        <input
+                                                            type="radio"
+                                                            id="place8"
+                                                            name="storyPlace"
+                                                            value="Jungle Adventure"
+                                                        >
+                                                        Jungle Adventure
+                                                    </label>
+                                                    <label for="place9">
+                                                        <input
+                                                            type="radio"
+                                                            id="place9"
+                                                            name="storyPlace"
+                                                            value="Dreamy Cloud World"
+                                                        >
+                                                        Dreamy Cloud World
+                                                    </label>
+                                                    <label for="place10">
+                                                        <input
+                                                            type="radio"
+                                                            id="place10"
+                                                            name="storyPlace"
+                                                            value="Candy Land"
+                                                        >
+                                                        Candy Land
+                                                    </label>
+                                                    <label for="place11">
+                                                        <input
+                                                            type="radio"
+                                                            id="place11"
+                                                            name="storyPlace"
+                                                            value="Dinosaur Valley"
+                                                        >
+                                                        Dinosaur Valley
+                                                    </label>
+                                                    <label for="place12">
+                                                        <input
+                                                            type="radio"
+                                                            id="place12"
+                                                            name="storyPlace"
+                                                            value="Busy City"
+                                                        >
+                                                        Busy City
+                                                    </label>
+                                                    <label for="place13">
+                                                        <input
+                                                            type="radio"
+                                                            id="place13"
+                                                            name="storyPlace"
+                                                            value="Desert Oasis"
+                                                        >
+                                                        Desert Oasis
+                                                    </label>
+                                                    <label for="place14">
+                                                        <input
+                                                            type="radio"
+                                                            id="place14"
+                                                            name="storyPlace"
+                                                            value="Space Station"
+                                                        >
+                                                        Space Station
+                                                    </label>
+                                                    <label for="place15">
+                                                        <input
+                                                            type="radio"
+                                                            id="place15"
+                                                            name="storyPlace"
+                                                            value="Ancient Castle"
+                                                        >
+                                                        Ancient Castle
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <!-- Story type -->
+                                            <div class="box-group">
+                                                <h4>What kind of story would they love?</h4>
+                                                <p>Choose the style of adventure that fits your child best.</p>
+                                                <div class="option-grid">
+                                                    <label for="stype1">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype1"
+                                                            name="storyType"
+                                                            value="Classic Fairy Tale"
+                                                        >
+                                                        Classic Fairy Tale
+                                                    </label>
+                                                    <label for="stype2">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype2"
+                                                            name="storyType"
+                                                            value="Superhero Mission"
+                                                        >
+                                                        Superhero Mission
+                                                    </label>
+                                                    <label for="stype3">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype3"
+                                                            name="storyType"
+                                                            value="Animal Friends"
+                                                        >
+                                                        Animal Friends
+                                                    </label>
+                                                    <label for="stype4">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype4"
+                                                            name="storyType"
+                                                            value="Mystery &amp; Discovery"
+                                                        >
+                                                        Mystery &amp; Discovery
+                                                    </label>
+                                                    <label for="stype5">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype5"
+                                                            name="storyType"
+                                                            value="Bedtime Dream"
+                                                        >
+                                                        Bedtime Dream
+                                                    </label>
+                                                    <label for="stype6">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype6"
+                                                            name="storyType"
+                                                            value="Fantasy Quest"
+                                                        >
+                                                        Fantasy Quest
+                                                    </label>
+                                                    <label for="stype7">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype7"
+                                                            name="storyType"
+                                                            value="Treasure Hunt"
+                                                        >
+                                                        Treasure Hunt
+                                                    </label>
+                                                    <label for="stype8">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype8"
+                                                            name="storyType"
+                                                            value="Science Adventure"
+                                                        >
+                                                        Science Adventure
+                                                    </label>
+                                                    <label for="stype9">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype9"
+                                                            name="storyType"
+                                                            value="Pirate Story"
+                                                        >
+                                                        Pirate Story
+                                                    </label>
+                                                    <label for="stype10">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype10"
+                                                            name="storyType"
+                                                            value="Friendship Journey"
+                                                        >
+                                                        Friendship Journey
+                                                    </label>
+                                                    <label for="stype11">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype11"
+                                                            name="storyType"
+                                                            value="Magical School"
+                                                        >
+                                                        Magical School
+                                                    </label>
+                                                    <label for="stype12">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype12"
+                                                            name="storyType"
+                                                            value="Detective Adventure"
+                                                        >
+                                                        Detective Adventure
+                                                    </label>
+                                                    <label for="stype13">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype13"
+                                                            name="storyType"
+                                                            value="Circus Adventure"
+                                                        >
+                                                        Circus Adventure
+                                                    </label>
+                                                    <label for="stype14">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype14"
+                                                            name="storyType"
+                                                            value="Space Expedition"
+                                                        >
+                                                        Space Expedition
+                                                    </label>
+                                                    <label for="stype15">
+                                                        <input
+                                                            type="radio"
+                                                            id="stype15"
+                                                            name="storyType"
+                                                            value="Festival Celebration"
+                                                        >
+                                                        Festival Celebration
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <!-- Story mood -->
+                                            <div class="box-group">
+                                                <h4>What mood should the story have?</h4>
+                                                <p>Pick the overall feeling you’d like the story to give your child.</p>
+                                                <div class="option-grid">
+                                                    <label for="mood1">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood1"
+                                                            name="storyMood"
+                                                            value="Fun and Silly"
+                                                        >
+                                                        Fun and Silly
+                                                    </label>
+                                                    <label for="mood2">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood2"
+                                                            name="storyMood"
+                                                            value="Calm and Dreamy"
+                                                        >
+                                                        Calm and Dreamy
+                                                    </label>
+                                                    <label for="mood3">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood3"
+                                                            name="storyMood"
+                                                            value="Exciting and Fast-Paced"
+                                                        >
+                                                        Exciting and Fast-Paced
+                                                    </label>
+                                                    <label for="mood4">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood4"
+                                                            name="storyMood"
+                                                            value="Heartwarming and Sweet"
+                                                        >
+                                                        Heartwarming and Sweet
+                                                    </label>
+                                                    <label for="mood5">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood5"
+                                                            name="storyMood"
+                                                            value="Magical and Mysterious"
+                                                        >
+                                                        Magical and Mysterious
+                                                    </label>
+                                                    <label for="mood6">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood6"
+                                                            name="storyMood"
+                                                            value="Brave and Adventurous"
+                                                        >
+                                                        Brave and Adventurous
+                                                    </label>
+                                                    <label for="mood7">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood7"
+                                                            name="storyMood"
+                                                            value="Kind and Caring"
+                                                        >
+                                                        Kind and Caring
+                                                    </label>
+                                                    <label for="mood8">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood8"
+                                                            name="storyMood"
+                                                            value="Funny and Playful"
+                                                        >
+                                                        Funny and Playful
+                                                    </label>
+                                                    <label for="mood9">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood9"
+                                                            name="storyMood"
+                                                            value="Whimsical and Charming"
+                                                        >
+                                                        Whimsical and Charming
+                                                    </label>
+                                                    <label for="mood10">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood10"
+                                                            name="storyMood"
+                                                            value="Peaceful and Soothing"
+                                                        >
+                                                        Peaceful and Soothing
+                                                    </label>
+                                                    <label for="mood11">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood11"
+                                                            name="storyMood"
+                                                            value="Spooky but Fun"
+                                                        >
+                                                        Spooky but Fun
+                                                    </label>
+                                                    <label for="mood12">
+                                                        <input
+                                                            type="radio"
+                                                            id="mood12"
+                                                            name="storyMood"
+                                                            value="Energetic and Wild"
+                                                        >
+                                                        Energetic and Wild
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- Story type (radio group) -->
-                            <div class="form-box">
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>What kind of story would they love?</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="stype1">
-                                        <input
-                                            type="radio"
-                                            id="stype1"
-                                            name="storyType"
-                                            value="Classic Fairy Tale"
-                                        >
-                                        Classic Fairy Tale
-                                    </label>
-                                    <label for="stype2">
-                                        <input
-                                            type="radio"
-                                            id="stype2"
-                                            name="storyType"
-                                            value="Superhero Mission"
-                                        >
-                                        Superhero Mission
-                                    </label>
-                                    <label for="stype3">
-                                        <input
-                                            type="radio"
-                                            id="stype3"
-                                            name="storyType"
-                                            value="Animal Friends"
-                                        >
-                                        Animal Friends
-                                    </label>
-                                    <label for="stype4">
-                                        <input
-                                            type="radio"
-                                            id="stype4"
-                                            name="storyType"
-                                            value="Mystery & Discovery"
-                                        >
-                                        Mystery & Discovery
-                                    </label>
-                                    <label for="stype5">
-                                        <input
-                                            type="radio"
-                                            id="stype5"
-                                            name="storyType"
-                                            value="Bedtime Dream"
-                                        >
-                                        Bedtime Dream
-                                    </label>
-                                    <label for="stype6">
-                                        <input
-                                            type="radio"
-                                            id="stype6"
-                                            name="storyType"
-                                            value="Fantasy Quest"
-                                        >
-                                        Fantasy Quest
-                                    </label>
-                                    <label for="stype7">
-                                        <input
-                                            type="radio"
-                                            id="stype7"
-                                            name="storyType"
-                                            value="Treasure Hunt"
-                                        >
-                                        Treasure Hunt
-                                    </label>
-                                    <label for="stype8">
-                                        <input
-                                            type="radio"
-                                            id="stype8"
-                                            name="storyType"
-                                            value="Science Adventure"
-                                        >
-                                        Science Adventure
-                                    </label>
-                                    <label for="stype9">
-                                        <input
-                                            type="radio"
-                                            id="stype9"
-                                            name="storyType"
-                                            value="Pirate Story"
-                                        >
-                                        Pirate Story
-                                    </label>
-                                    <label for="stype10">
-                                        <input
-                                            type="radio"
-                                            id="stype10"
-                                            name="storyType"
-                                            value="Friendship Journey"
-                                        >
-                                        Friendship Journey
-                                    </label>
-                                    <label for="stype11">
-                                        <input
-                                            type="radio"
-                                            id="stype11"
-                                            name="storyType"
-                                            value="Magical School"
-                                        >
-                                        Magical School
-                                    </label>
-                                    <label for="stype12">
-                                        <input
-                                            type="radio"
-                                            id="stype12"
-                                            name="storyType"
-                                            value="Detective Adventure"
-                                        >
-                                        Detective Adventure
-                                    </label>
-                                    <label for="stype13">
-                                        <input
-                                            type="radio"
-                                            id="stype13"
-                                            name="storyType"
-                                            value="Circus Adventure"
-                                        >
-                                        Circus Adventure
-                                    </label>
-                                    <label for="stype14">
-                                        <input
-                                            type="radio"
-                                            id="stype14"
-                                            name="storyType"
-                                            value="Space Expedition"
-                                        >
-                                        Space Expedition
-                                    </label>
-                                    <label for="stype15">
-                                        <input
-                                            type="radio"
-                                            id="stype15"
-                                            name="storyType"
-                                            value="Festival Celebration"
-                                        >
-                                        Festival Celebration
-                                    </label>
+                            <!-- ALMOST DONE / UPLOAD & TERMS -->
+                            <div class="form-container">
+                                <div class="row">
+                                    <!-- LEFT: SUMMARY -->
+                                    <div class="col-12 col-md-4">
+                                        <div class="form-summary-box">
+                                            <h3>Almost Done!</h3>
+                                            <p>
+                                                Just one last step. Upload a photo (if you’d like) and confirm you’re happy with
+                    our terms so we can start crafting your child’s magical story.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- RIGHT: FIELDS -->
+                                    <div class="col-12 col-md-8">
+                                        <div class="form-box">
+                                            <!-- Upload picture  -->
+                                            <div class="mb-3">
+                                                <label for="uploadPictureformFile" class="form-label">
+                                                    Please upload your child's picture (optional):
+                                                </label>
+                                                <input class="form-control" type="file" id="uploadPictureformFile">
+                                            </div>
+                                            <!-- Terms and conditions text -->
+                                            <div class="mb-3">
+                                                <p>
+                                                    By submitting this form, you confirm that you've read and agree to our
+                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#terms-modal">Terms &amp; Conditions</a>
+                                                    and
+                                                    <a href="#" data-bs-toggle="modal" data-bs-target="#privacy-modal">Privacy Policy</a>
+                                                    .
+                                                </p>
+                                            </div>
+                                            <!-- Submit (opens success modal for this project) -->
+                                            <button
+                                                type="button"
+                                                class="btn btn-warning button-color"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#submit-modal"
+                                            >
+                                                Create My Book
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- Story mood (radio group) -->
-                            <div class="form-box">
-                                <div>
-                                    <hr class="hr-question">
-                                    <h4>What mood should the story have?</h4>
-                                </div>
-                                <hr class="hr-answer">
-                                <div>
-                                    <label for="mood1">
-                                        <input
-                                            type="radio"
-                                            id="mood1"
-                                            name="storyMood"
-                                            value="Fun and Silly"
-                                        >
-                                        Fun and Silly
-                                    </label>
-                                    <label for="mood2">
-                                        <input
-                                            type="radio"
-                                            id="mood2"
-                                            name="storyMood"
-                                            value="Calm and Dreamy"
-                                        >
-                                        Calm and Dreamy
-                                    </label>
-                                    <label for="mood3">
-                                        <input
-                                            type="radio"
-                                            id="mood3"
-                                            name="storyMood"
-                                            value="Exciting and Fast-Paced"
-                                        >
-                                        Exciting and Fast-Paced
-                                    </label>
-                                    <label for="mood4">
-                                        <input
-                                            type="radio"
-                                            id="mood4"
-                                            name="storyMood"
-                                            value="Heartwarming and Sweet"
-                                        >
-                                        Heartwarming and Sweet
-                                    </label>
-                                    <label for="mood5">
-                                        <input
-                                            type="radio"
-                                            id="mood5"
-                                            name="storyMood"
-                                            value="Magical and Mysterious"
-                                        >
-                                        Magical and Mysterious
-                                    </label>
-                                    <label for="mood6">
-                                        <input
-                                            type="radio"
-                                            id="mood6"
-                                            name="storyMood"
-                                            value="Brave and Adventurous"
-                                        >
-                                        Brave and Adventurous
-                                    </label>
-                                    <label for="mood7">
-                                        <input
-                                            type="radio"
-                                            id="mood7"
-                                            name="storyMood"
-                                            value="Kind and Caring"
-                                        >
-                                        Kind and Caring
-                                    </label>
-                                    <label for="mood8">
-                                        <input
-                                            type="radio"
-                                            id="mood8"
-                                            name="storyMood"
-                                            value="Funny and Playful"
-                                        >
-                                        Funny and Playful
-                                    </label>
-                                    <label for="mood9">
-                                        <input
-                                            type="radio"
-                                            id="mood9"
-                                            name="storyMood"
-                                            value="Whimsical and Charming"
-                                        >
-                                        Whimsical and Charming
-                                    </label>
-                                    <label for="mood10">
-                                        <input
-                                            type="radio"
-                                            id="mood10"
-                                            name="storyMood"
-                                            value="Peaceful and Soothing"
-                                        >
-                                        Peaceful and Soothing
-                                    </label>
-                                    <label for="mood11">
-                                        <input
-                                            type="radio"
-                                            id="mood11"
-                                            name="storyMood"
-                                            value="Spooky but Fun"
-                                        >
-                                        Spooky but Fun
-                                    </label>
-                                    <label for="mood12">
-                                        <input
-                                            type="radio"
-                                            id="mood12"
-                                            name="storyMood"
-                                            value="Energetic and Wild"
-                                        >
-                                        Energetic and Wild
-                                    </label>
-                                </div>
-                            </div>
-                            <!-- TERMS + SUBMIT (placeholder for now) -->
-                            <div class="form-box">
-                                <h3>Almost Done!</h3>
-                                <p>Please review your answers, accept our terms and conditions, and submit your magical story request.</p>
-                                <!-- Upload picture  -->
-                                <div class="mb-3">
-                                    <label for="uploadPictureformFile" class="form-label">Please upload your Child's picture below</label>
-                                    <input class="form-control" type="file" id="uploadPictureformFile">
-                                </div>
-                                <!-- Terms and conditions -->
-                                <div>
-                                    <p>
-                                        By submitting this form, you confirm that you've read and agree to our
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#terms-modal">Terms & Conditions</a>
-                                        and
-                                        <a href="#" data-bs-toggle="modal" data-bs-target="#privacy-modal">Privacy Policy</a>
-                                        .
-                                    </p>
-                                </label>
-                            </div>
-                            <button
-                                type="button"
-                                class="btn btn-warning button-color"
-                                data-bs-toggle="modal"
-                                data-bs-target="#submit-modal"
-                            >Create My Book</button>
                         </div>
-                    </form>
-                    <!-- End of form -->
-                </div>
+                    </div>
+                </section>
             </div>
         </section>
+    </main>
+    <!-- Footer - Bootstrap -->
+    <!-- Navigation bar with links -->
+    <div class="container-footer">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a
+                    class="nav-link"
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#delivery-modal"
+                >Delivery & Return Information</a>
+            </li>
+            <li class="nav-item">
+                <a
+                    class="nav-link"
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#privacy-modal"
+                >Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+                <a
+                    class="nav-link"
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#terms-modal"
+                >Terms & Conditions</a>
+            </li>
+            <li class="nav-item">
+                <a
+                    class="nav-link"
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#contact-modal"
+                >Contact us</a>
+            </li>
+        </ul>
     </div>
-</section>
-</main>
-<!-- Footer - Bootstrap -->
-<!-- Navigation bar with links -->
-<div class="container-footer">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a
-                class="nav-link"
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#delivery-modal"
-            >Delivery & Return Information</a>
-        </li>
-        <li class="nav-item">
-            <a
-                class="nav-link"
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#privacy-modal"
-            >Privacy Policy</a>
-        </li>
-        <li class="nav-item">
-            <a
-                class="nav-link"
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#terms-modal"
-            >Terms & Conditions</a>
-        </li>
-        <li class="nav-item">
-            <a
-                class="nav-link"
-                href="#"
-                data-bs-toggle="modal"
-                data-bs-target="#contact-modal"
-            >Contact us</a>
-        </li>
-    </ul>
-</div>
-<!-- License details -->
-<div class="footer-info">
-    <div class="footer-info2">All rights reserved. This website is a student project created for educational purposes only.</div>
-    <div class="footer-info2">@2025 Katarzyna Gawronska</div>
-</div>
+    <!-- License details -->
+    <div class="footer-info">
+        <div class="footer-info2">All rights reserved. This website is a student project created for educational purposes only.</div>
+        <div class="footer-info2">@2025 Katarzyna Gawronska</div>
+    </div>
 </footer>
 <!-- Modals section - Bootstrap -->
 <!-- Delivery modal -->

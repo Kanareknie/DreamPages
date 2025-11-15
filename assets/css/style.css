@@ -646,46 +646,30 @@ i {
     text-align: center;
 }
 
-.form-section {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 15px;
-    margin: 15px 0;
-}
-
-.form-section h3 {
-    margin: 15px;
-    color: #e81a54;
-    font-weight: 600;
-    background-color: #f2c6b9;
-}
-
-.form-section h4 {
-    margin: 10px;
-    color: #800160;
-    font-weight: 300;
+.form-summary-box {
+    padding: 10px 15px;
 }
 
 .form-box {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #ffb7d1;
+}
 
+.box-label {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 15px;
 }
 
-
-.hr-question {
-    border: none;
-    border-top: 3px solid #800160;
-    margin: 15px 0;
-    opacity: 0.5;
+.box-label label {
+    font-weight: 600;
 }
 
+.hr-question,
 .hr-answer {
-    border: none;
-    border-top: 1px solid #b7489c;
-    margin: 15px 0;
-    opacity: 0.5;
+    display: none; /* We remove all those messy lines */
 }
 /* --------------------------------------- Gallery page ------------------------------------------------*/
 
