@@ -905,3 +905,28 @@ i {
     font-family: var(--secondary-font);
     font-size: 12px;
 }
+
+
+/* Modals - list */
+.modal-body > ul {
+    font-family: var(--secondary-font);
+    color: #800160;
+    font-size: 1rem;
+}
+
+.modal-body > ol {
+    font-family: var(--secondary-font);
+    color: #800160;
+    font-size: 1rem;
+}
+
+/* Modal closing button */
+
+.btn-secondary {
+    background-color: #ec2860;
+    border: 2px solid #c70c63;
+    color: #ffffff;
+    font-weight: 570;
+    margin-bottom: 20px;
+}
+
