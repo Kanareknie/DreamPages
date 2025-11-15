@@ -705,9 +705,11 @@ i {
     width: 100%;
 }
 
+
 .about-us-title-p {
     color:#800160;
     padding: 10px;
+    text-align: center;
 }
 
 .about-us-title-container > img {
@@ -718,14 +720,23 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid #ff9473;
+    border: 3px solid #ff9473;
     border-radius: 10px;
-    box-shadow: 1px 5px #f0205b;
     padding: 5px;
-    margin: 20px;
+    margin: 40px 10px;
 
 }
 
+.card-about-us h4 {
+    background-color: #e81a54;
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+.card-about-us h6 {
+    background-color: #f2c6b9;
+}
 
 .about-us-card-p {
     color:#800160;
@@ -734,16 +745,18 @@ i {
     padding-right: 5px;
 }
 
-.mini-card {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
+.motto-card {
+    background-color: #f8e3dd;
 }
 
 .small-picture-card {
     width: 50%;
     padding: 10px;
+}
+
+.mini-card img {
+    float: left;
+    display: block;
 }
 /* --------------------------------------- FOOTER LAYOUT ------------------------------------------------*/
 
