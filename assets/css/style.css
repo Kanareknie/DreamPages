@@ -619,6 +619,8 @@ i {
   color: var(--secondary-color);
 }
 
+
+
 /* --------------------------------------- Form page -------------------------------------------------- */
 
 /* Title */
@@ -696,13 +698,57 @@ i {
 .option-grid {
     display: flex;
     flex-direction: column;
+    gap: 6px;
     
-    
+}
+
+.option-grid {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-size:  0.95rem;
+    font-weight: 400;
 }
 
 .box-group {
     padding: 10px;
 }
+
+/* Fields - checkbox and radio - from https://www.w3schools.com/css/css_form.asp */
+
+.form-box input[type="text"],
+.form-box input[type="number"],
+.form-box select,
+.form-box textarea,
+.form-box-end input[type="file"],
+.form-box-end input[type="text"],
+.form-box-end input[type="email"],
+.form-box-end textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;  
+    background-color: #f8f9fa;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="number"]:focus,
+.form-box select:focus,
+.form-box textarea:focus,
+.form-box-end input[type="file"]:focus,
+.form-box-end input[type="text"]:focus,
+.form-box-end input[type="email"]:focus,
+.form-box-end textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(240, 32, 91, 0.2);  /* soft pink glow */
+}
+
 
 /* --------------------------------------- Gallery page ------------------------------------------------*/
 
