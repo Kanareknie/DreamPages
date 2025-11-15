@@ -653,12 +653,22 @@ i {
 
 /* --------------------------------------- Gallery page ------------------------------------------------*/
 
+.container-gallery {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.row-photos {
+    column-count: 1;
+    column-gap: 2px;
+}
+
 .row-photos img {
     width: 100%;
-    height: auto;
     display: block;
-    margin: 5px;
-    padding: 5px;;
+    padding: 5px;
+
 }
 
 
@@ -671,7 +681,6 @@ i {
 @media screen and (min-width: 576px) {
     .row-photos {
         column-count: 2;
-        column-gap: 0;
     }
 }
 
