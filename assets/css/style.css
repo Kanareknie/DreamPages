@@ -667,7 +667,22 @@ i {
   color: var(--secondary-color);
 }
 
+/* MEDIA QUERY - TABLET */
 
+@media (min-width: 768px) and (max-width: 991px) {
+    
+
+    .reason-cards-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card {
+        margin: 10px;
+        margin-bottom: 40px;
+    }
+
+}
 
 /* --------------------------------------- Form page -------------------------------------------------- */
 
