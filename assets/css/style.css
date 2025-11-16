@@ -938,10 +938,8 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 3px solid #ff9473;
+    border: 3px solid #f2c6b9;
     border-radius: 10px;
-    padding: 5px;
-    margin: 40px 10px;
 
 }
 
@@ -976,6 +974,30 @@ i {
     float: left;
     display: block;
 }
+
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    
+}
+
+/* MEDIA QUERY - TABLET */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .mini-card img {
+        float: none !important;  
+        display: block;
+        margin: 0 auto 10px;      
+        width: 100%;              
+        max-width: 150px;         
+    }
+
+  
+
+    }
+
+
 /* --------------------------------------- FOOTER LAYOUT ------------------------------------------------*/
 
 
