@@ -905,6 +905,15 @@ i {
     }
 }
 
+/* MEDIA QUERY - TABLET */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .gallery-text-p {
+        margin-bottom: 20px;
+    }
+}
+
 /* --------------------------------------- ABOUT US page ------------------------------------------------*/
 
 .about-us-title-container {
