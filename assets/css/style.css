@@ -670,6 +670,8 @@ i {
 /* MEDIA QUERY - TABLET */
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+    /* Feedback section */
     
   .p-white-bg {
     padding: 10px;
@@ -683,15 +685,44 @@ i {
         margin: 10px;
     }
 
+    /* Reason section */
+
     .reason-cards-container {
         display: flex;
         flex-direction: row;
+        
+    
     }
 
     .card {
         margin: 10px;
         margin-bottom: 40px;
     }
+
+    /* Question section */
+
+   .question-cards {
+    text-align: center;
+   }
+
+   .question-home-container {
+    display: flex;
+    border: 1px solid #f0205b;
+    box-shadow: 1px 5px #ebe5e7;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+   }
+
+
+
+.title-question {
+
+    padding-top: 10px;
+    border-radius: 10px;
+    
+}
 
 }
 
