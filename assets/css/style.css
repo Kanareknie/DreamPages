@@ -327,6 +327,10 @@ icon-link {
 
 /* --------------------------------------- Home page ------------------------------------------------*/
 
+.title-white-bg {
+    margin-top: 20px;
+}
+
 /* Audio */
 
 .audio-section {
@@ -770,7 +774,9 @@ i {
 
 }
 
-
+.gallery-title {
+    margin-top: 20px;
+}
 
 .gallery-text-p {
     color: #800160;
@@ -804,6 +810,9 @@ i {
     width: 100%;
 }
 
+.about-us-title {
+    margin: 20px;
+}
 
 .about-us-title-p {
     color:#800160;
