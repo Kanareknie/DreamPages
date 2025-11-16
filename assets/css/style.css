@@ -209,7 +209,7 @@ icon-link {
 
     .main-nav {
         flex-wrap: wrap;
-        align-items: line;
+        align-items: center;
     }
 
     /* Show burger icon */
