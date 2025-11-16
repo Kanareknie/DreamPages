@@ -671,6 +671,17 @@ i {
 
 @media (min-width: 768px) and (max-width: 991px) {
     
+  .p-white-bg {
+    padding: 10px;
+  }
+
+  .feedback-card{
+    margin: 10px;
+  }
+
+    .feedback-container {
+        margin: 10px;
+    }
 
     .reason-cards-container {
         display: flex;
