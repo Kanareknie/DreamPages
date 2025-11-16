@@ -854,6 +854,91 @@ i {
     box-shadow: 0 0 0 2px rgba(240, 32, 91, 0.2);  /* soft pink glow */
 }
 
+/* MEDIA QUERY - TABLET */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .form-top{
+        position: relative;
+    }
+        
+    .form-title-top {
+        position: absolute;
+        margin-right: 60%;
+        margin-left: 5%;
+    }
+
+    .form-title-top, .form-title-text-top {
+        background-color: #ffffffb6;
+        padding: 10px 15px;
+        margin-top: 30px;
+    }
+
+    .form-title-text-top {
+        position: absolute;
+        text-align: center;
+        margin-right: 60%;
+        margin-left: 5%;
+        margin-top: 36%;
+        
+    }
+
+    .container {
+        margin-top: 30px;
+    }
+
+    .form-box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .form-box-end {
+        padding-top: 30px;
+    }
+}
+
+    /* /* MEDIA QUERY - DESKTOP */
+    
+    @media (min-width: 992px) {
+
+
+
+    .form-top{
+        position: relative;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+        
+    .form-title-top {
+        position: absolute;
+        margin-right: 60%;
+        margin-left: 5%;
+    }
+
+    .form-title-top, .form-title-text-top {
+        background-color: #ffffffb6;
+        padding: 10px 15px;
+        margin-top: 30px;
+    }
+
+    .form-title-text-top {
+        position: absolute;
+        text-align: center;
+        margin-right: 60%;
+        margin-left: 5%;
+        margin-top: 36%;
+        
+    }
+    .container {
+        margin-top: 30px;
+    }
+
+    .form-box {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
 
 /* --------------------------------------- Gallery page ------------------------------------------------*/
 
@@ -975,13 +1060,6 @@ i {
     display: block;
 }
 
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-
-    
-}
-
 /* MEDIA QUERY - TABLET */
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -994,10 +1072,7 @@ i {
         max-width: 150px;         
     }
 
-  
-
     }
-
 
 /* --------------------------------------- FOOTER LAYOUT ------------------------------------------------*/
 
