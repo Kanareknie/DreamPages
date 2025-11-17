@@ -121,6 +121,29 @@ p {
     background-color: #ffffff;
 }
 
+/* -- DESKTOP - Global spacing -- */
+
+@media (min-width: 992px) {
+
+    main {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+ 
+    main > section.container {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    main > section.container > .row {
+        padding: 20px 30px;
+        border-radius: 12px;
+    }
+
+    p {
+        line-height: 1.7;
+    }
+}
 /* --------------------------------------- NAVBAR LAYOUT ------------------------------------------------*/
 
 
@@ -334,8 +357,8 @@ icon-link {
 }
 
 .nav-icons a {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .logo {
@@ -481,16 +504,14 @@ i {
   align-items: center;       
   padding: 40px 0;           
   border-radius: 10px; 
- 
 }
+
 .row-list-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 90%;
     margin: 0;
-    
-    
 }
 
 .row-list {
@@ -690,8 +711,6 @@ i {
     .reason-cards-container {
         display: flex;
         flex-direction: row;
-        
-    
     }
 
     .card {
@@ -712,20 +731,134 @@ i {
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-
    }
-
-
 
 .title-question {
 
     padding-top: 10px;
     border-radius: 10px;
-    
 }
 
 }
 
+/* LAPTOP QUERY - BIG SCREEN */
+
+@media (min-width: 992px) {
+
+    /* -- HERO — text left, image right -- */
+   
+
+    /* -- FEEDBACK SECTION -- */
+    .feedback-container {
+        max-width: 900px;
+        margin: 10px auto 0;
+        gap: 20px;
+    }
+
+    .feedback-card {
+        padding: 20px 15px;
+        font-size: 0.9rem;
+    }
+
+    #feedback-sign {
+        font-size: 0.75rem;
+        margin-top: 6px;
+    }
+
+    .company-summary {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    /* -- REASONS — Column cards -- */
+    .reasons-container {
+        margin-top: 30px;
+        justify-items: center;
+    }
+
+    .reason-cards-container {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 30px;
+    }
+
+    .reason-cards-container .card {
+        flex: 0 1 260px;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 20px 15px;
+    }
+
+    .carousel {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    /* -- QUESTION SECTION -- */
+    .question-home-container {
+        border: 1px solid #f0205b;
+        box-shadow: 1px 5px #ebe5e7;
+        padding: 30px 20px;
+        border-radius: 12px;
+    }
+
+    .question-home-container img {
+        width: 80%;
+        max-width: 340px;
+        margin: 0 auto 10px;
+        display: block;
+    }
+
+    .title-question {
+        padding: 20px 30px;
+        align-items: center;
+    }
+
+    .title-question h3 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #title-question-p {
+        font-size: 1.05rem;
+        line-height: 1.7;
+        text-align: center;
+    }
+
+    .question-cards {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    /* -- CONTACT SECTION — bg image -- */
+    .contact-section {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 40px 20px;
+        background-image:
+            linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)),
+            url('../images/desk3.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+    }
+
+    .contact-card {
+        padding: 30px 20px;
+    }
+
+    .opening-hours {
+        max-width: 280px;
+    }
+}
+
+}
 /* --------------------------------------- Form page -------------------------------------------------- */
 
 /* Title */
