@@ -37,14 +37,6 @@ main {
     --background-colour: #ebe5e7;
 }
 
-body {
-    background-image: url('../images/backgroud-pink-hero.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-}
-
 
 h1 {
     font-family: var(--primary-font);
@@ -756,28 +748,6 @@ i {
 
     /* -- HERO — text left, image right -- */
    
-     main > section.container:first-of-type > .row {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    main > section.container:first-of-type img[alt="Smiled child reading the book"] {
-        float: right;
-        width: 40%;
-        max-width: 420px;
-        margin: 0 0 20px 30px;
-        display: block;
-    }
-
-    main > section.container:first-of-type .hero.title,
-    main > section.container:first-of-type .hero.text {
-        max-width: 55%;
-    }
-
-    .title-white-bg {
-        font-size: 2.4rem;
-        margin-bottom: 10px;
-    }
 
     .audio-section {
         clear: both;
