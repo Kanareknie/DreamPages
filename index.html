@@ -46,8 +46,7 @@
         <header>
             <nav class="main-nav">
                 <!-- LEFT: Menu -->
-                <input type="checkbox" id="nav-toggle" name="nav-toggle">
-                <label for="nav-toggle" class="nav-toggle-label">
+                <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
                     <i class="fa-solid fa-bars"></i>
                 </label>
                 <ul class="nav-menu">
@@ -70,13 +69,13 @@
                 </a>
                 <!-- RIGHT: Icons -->
                 <div class="nav-icons">
-                    <a href="https://www.facebook.com" target="_blank" class="icon-link">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="icon-link">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
-                    <a href="https://www.instagram.com" target="_blank" class="icon-link">
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="icon-link">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="https://www.twitter.com" target="_blank" class="icon-link">
+                    <a href="https://www.twitter.com" target="_blank"  rel="noopener noreferrer" class="icon-link">
                         <i class="fa-brands fa-twitter"></i>
                     </a>
                     <a
@@ -84,8 +83,9 @@
                         class="icon-link"
                         data-bs-toggle="modal"
                         data-bs-target="#contact-modal"
+                        aria-label="Open contact form"
                     >
-                        <i class="fa-solid fa-paper-plane"></i>
+                        <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
                     </a>
                 </div>
             </nav>
@@ -106,15 +106,14 @@
                     <div class="audio-section">
                         <h2>Listen while you browse</h2>
                         <p>Soft, magical background music</p>
-                        <audio controls class="audio-player">
-                            <source
-                                src="assets/audio/background-music.mp3"
-                                type="audio/mpeg"
-                                controls
-                                preload="none"
-                                loop
-                                aria-label="Play background music"
-                            >
+                        <audio
+                            controls
+                            class="audio-player"
+                            aria-label="Play background music"
+                            preload="none"
+                            loop
+                        >
+                            <source src="assets/audio/background-music.mp3" type="audio/mpeg">
                             Your browser does not support the audio element.
                         </audio>
                     </div>
@@ -444,7 +443,8 @@
                         marginwidth="0"
                         id="gmap_canvas"
                         src="https://maps.google.com/maps?width=1920&amp;height=367&amp;hl=en&amp;q=Burlington%20House,%20Piccadilly%20London+(Dream%20Pages)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    ></iframe>
+                        title="Map showing Dream Pages location in London"
+                        ></iframe>
                 </div>
             </section>
             <!-- Navigation bar with links -->
@@ -838,7 +838,7 @@
                         <p>
                             We’re here to make your experience simple, fun, and stress-free.
                         </p>
-                        <P>Below you’ll find answers to the most common questions parents ask about creating a personalised storybook.</P>
+                        <P>Below you’ll find answers to the most common questions parents ask about creating a personalised storybook.</p>
                         <P>If you don’t see what you’re looking for, feel free to contact us — we’re always happy to help!</P>
                         <p>By using our website and placing an order for a personalised storybook, you agree to the following terms and conditions.</p>
                         <ol>
