@@ -401,6 +401,49 @@ icon-link {
     margin-top: 20px;
 }
 
+/* Hero */
+
+/* === HOME PAGE HERO OVERLAY === */
+
+.hero-wrapper {
+    position: relative;
+}
+
+/* Mobile & tablet: overlay hidden */
+.hero-overlay-box {
+    display: none;
+}
+
+/* Desktop: overlay shows */
+@media (min-width: 992px) {
+
+    .hero-overlay-box {
+        display: block;
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        background-color: rgba(255, 255, 255, 0.88);
+        padding: 20px 25px;
+        border-radius: 12px;
+        max-width: 420px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .hero-overlay-box h1,
+    .hero-overlay-box p {
+        text-align: left !important;
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+
+    .hero-main-image {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+
 /* Audio */
 
 .audio-section {

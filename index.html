@@ -111,842 +111,843 @@
         <!--Main element to hold all key sections of home page -->
         <main>
             <!-- Hero picture with the title -->
-            <section class="container">
-                <div class="row">
-                    <div class="hero title">
+            <section class="container hero-container">
+                <div class="row hero-wrapper">
+                    <div class="hero-overlay-box">
                         <h1 class="title-white-bg">Create a magical story where your child is the hero!</h1>
-                    </div>
-                    <div class="hero text">
                         <p class="p-white-bg">
                             Bring your child’s imagination to life with a personalised story made just for them.
                         </p>
                     </div>
-                    <img src="assets/images/hero.jpg" alt="Smiled child reading the book">
+                    <img src="assets/images/hero-wide.jpg" alt="Smiled child reading the book" class="hero-main-image">
                     <div class="hero text">
                         <p class="p-white-bg">
-                            We’re a small team of four creative storytellers who believe every child’s imagination deserves its own spotlight. What began as a tiny idea around a kitchen table has grown into a joyful mission: turning everyday children into the heroes of their own magical adventures.
-                        We dream big, laugh often, and pour our hearts into every page — because nothing makes us happier than seeing little faces light up when they recognise themselves in a story crafted just for them.
+                            We’re a small team of four creative storytellers who believe every child’s imagination deserves its own spotlight. 
+                What began as a tiny idea around a kitchen table has grown into a joyful mission: 
+                turning everyday children into the heroes of their own magical adventures.
+                We dream big, laugh often, and pour our hearts into every page — because nothing makes us happier than seeing little faces light up when they recognise themselves in a story crafted just for them.
                         </p>
                     </div>
-                    <!-- Audio -->
-                    <div class="audio-section">
-                        <h2>Listen while you browse</h2>
-                        <p>Soft, magical background music</p>
-                        <audio
-                            id="myAudio"
-                            controls
-                            class="audio-player"
-                            aria-label="Play background music"
-                            preload="none"
-                            loop
-                        >
-                            <source src="assets/audio/background-music.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
-                        </audio>
-                    </div>
-                    <!-- Feedback on the picture -->
-                    <h2>Feedback from our customers</h2>
-                    <p class="p-white-bg">
-                        Our little readers — the true stars of Dream Pages — inspire every book we create. Their giggles, surprises, and wide-eyed reactions motivate us every single day.
-                    </p>
-                    <p>
-                        We proudly display real feedback from families who trusted us to bring their child’s story to life. You can find even more reviews and comments on
-                        <a href="https://uk.trustpilot.com/" target="_blank">Trustpilot</a>
-                        , where parents share their experiences, photos, and magical moments.
-                    </p>
-                    <p>
-                        Your opinion means the world to us. It helps us grow, improve, and keep creating stories that matter. Thank you for being part of the Dream Pages journey — we’re honoured to be part of yours.
-                    </p>
-                    <div class="feedback-container">
-                        <div class="feedback-card">
-                            <!-- Stars in the feedback - Fontawesome -->
-                            <p>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </p>
-                            <p class="p-white-bg">
-                                “My daughter couldn’t believe she was in the story! She’s read it every night since.”
-                            </p>
-                            <p class="p-white-bg feedback-sign">– Emily, mum of 5-year-old Sophie</p>
-                        </div>
-                        <div class="feedback-card">
-                            <!-- Stars in the feedback - Fontawesome -->
-                            <p>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </p>
-                            <p class="p-white-bg">
-                                “The book captured our son’s love for dinosaurs perfectly. Such a wonderful gift!”
-                            </p>
-                            <p class="p-white-bg feedback-sign">– Tom & Lily</p>
-                        </div>
-                    </div>
                 </div>
-            </section>
-            <!-- Reasons to make an order -->
-            <section class="container">
-                <div class="row">
-                    <h2>Why Create a Personalised Story?</h2>
-                    <div class="reasons-container">
-                        <div class="reason-cards-container">
-                            <div class="card">
-                                <div class="card-title">
-                                    <h3>Builds confidence and imagination</h3>
-                                </div>
-                                <div>
-                                    <p>
-                                        <i class="fa-solid fa-dumbbell card-icon fa-2x"></i>
-                                    </p>
-                                </div>
-                                <div class="card-text">
-                                    <p>When your child sees themselves as the main character, their confidence and creativity soar!</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-title">
-                                    <h3>A keepsake that lasts forever</h3>
-                                </div>
-                                <div>
-                                    <p>
-                                        <i class="fa-solid fa-gem card-icon fa-2x"></i>
-                                    </p>
-                                </div>
-                                <div class="card-text">
-                                    <p>A personalised book is a timeless treasure your family will cherish for years to come.</p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-title">
-                                    <h3>Made with love, just for your child</h3>
-                                </div>
-                                <div>
-                                    <p>
-                                        <i class="fa-solid fa-hand-holding-heart card-icon fa-2x"></i>
-                                    </p>
-                                </div>
-                                <div class="card-text">
-                                    <p>Every story is written and illustrated to match your child’s unique personality, favourites, and smile.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <!-- Audio -->
+                <div class="audio-section">
+                    <h2>Listen while you browse</h2>
+                    <p>Soft, magical background music</p>
+                    <audio
+                        id="myAudio"
+                        controls
+                        class="audio-player"
+                        aria-label="Play background music"
+                        preload="none"
+                        loop
+                    >
+                        <source src="assets/audio/background-music.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
                 </div>
-            </section>
-            <!-- Carousel Bootstrap-->
-            <div class="carousel-wrapper">
-                <div id="carouselExampleCaptions" class="carousel slide">
-                    <div class="carousel-indicators">
-                        <button
-                            type="button"
-                            data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide-to="0"
-                            class="active"
-                            aria-current="true"
-                            aria-label="Slide 1"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide-to="1"
-                            aria-label="Slide 2"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide-to="2"
-                            aria-label="Slide 3"
-                        ></button>
+                <!-- Feedback on the picture -->
+                <h2>Feedback from our customers</h2>
+                <p class="p-white-bg">
+                    Our little readers — the true stars of Dream Pages — inspire every book we create. Their giggles, surprises, and wide-eyed reactions motivate us every single day.
+                </p>
+                <p>
+                    We proudly display real feedback from families who trusted us to bring their child’s story to life. You can find even more reviews and comments on
+                    <a href="https://uk.trustpilot.com/" target="_blank">Trustpilot</a>
+                    , where parents share their experiences, photos, and magical moments.
+                </p>
+                <p>
+                    Your opinion means the world to us. It helps us grow, improve, and keep creating stories that matter. Thank you for being part of the Dream Pages journey — we’re honoured to be part of yours.
+                </p>
+                <div class="feedback-container">
+                    <div class="feedback-card">
+                        <!-- Stars in the feedback - Fontawesome -->
+                        <p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                        <p class="p-white-bg">
+                            “My daughter couldn’t believe she was in the story! She’s read it every night since.”
+                        </p>
+                        <p class="p-white-bg feedback-sign">– Emily, mum of 5-year-old Sophie</p>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/images/child-with-book-10.jpg" class="d-block w-100" alt="Children with the book smiling">
-                            <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/child-with-book-4.jpg" class="d-block w-100" alt="baby with parent holding the book">
-                            <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/child-with-book-9.jpg" class="d-block w-100" alt="child on the seaside reading the book">
-                            <div class="carousel-caption d-none d-md-block"></div>
-                        </div>
+                    <div class="feedback-card">
+                        <!-- Stars in the feedback - Fontawesome -->
+                        <p>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </p>
+                        <p class="p-white-bg">
+                            “The book captured our son’s love for dinosaurs perfectly. Such a wonderful gift!”
+                        </p>
+                        <p class="p-white-bg feedback-sign">– Tom & Lily</p>
                     </div>
-                    <button
-                        class="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev"
-                    >
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        type="button"
-                        data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next"
-                    >
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
-            <!-- Steps to place an order -->
-            <section class="container">
-                <div class="row">
-                    <div class="container-order">
-                        <!-- Section - place an order - steps -->
-                        <h2>How It Works — Create Your Story in 5 Easy Steps</h2>
-                        <!-- Picture as a background -->
-                        <div class="steps-image">
-                            <!-- List of steps -->
-                            <div class="row-list-container">
-                                <!-- STEP 1 -->
-                                <div class="row-list">
-                                    <div class="row-list-left">
-                                        <i class="fa-solid fa-1 fa-beat fa-xl icon-order" style="color: #800160;"></i>
-                                    </div>
-                                    <div class="row-list-middle">
-                                        <h3>Pick a theme</h3>
-                                    </div>
-                                    <div class="row-list-right">
-                                        <p class="row-list-text">Choose a world your child will love — from magical forests to space adventures!</p>
-                                    </div>
-                                </div>
-                                <!-- STEP 2 -->
-                                <div class="row-list">
-                                    <div class="row-list-left">
-                                        <i class="fa-solid fa-2 fa-beat fa-xl icon-order" style="color: #800160;"></i>
-                                    </div>
-                                    <div class="row-list-middle">
-                                        <h3>Add personal details</h3>
-                                    </div>
-                                    <div class="row-list-right">
-                                        <p class="row-list-text">Tell us your child’s favourite colour, toy, food, or pet.</p>
-                                    </div>
-                                </div>
-                                <!-- STEP 3 -->
-                                <div class="row-list">
-                                    <div class="row-list-left">
-                                        <i class="fa-solid fa-3 fa-beat fa-xl icon-order" style="color: #800160;"></i>
-                                    </div>
-                                    <div class="row-list-middle">
-                                        <h3>Upload a picture</h3>
-                                    </div>
-                                    <div class="row-list-right">
-                                        <p class="row-list-text">Send a photo so our team can personalise the story and illustrations.</p>
-                                    </div>
-                                </div>
-                                <!-- STEP 4 -->
-                                <div class="row-list">
-                                    <div class="row-list-left">
-                                        <i class="fa-solid fa-4 fa-beat fa-xl icon-order" style="color: #800160;"></i>
-                                    </div>
-                                    <div class="row-list-middle">
-                                        <h3>We create the story</h3>
-                                    </div>
-                                    <div class="row-list-right">
-                                        <p class="row-list-text">Our creative team writes, designs, and illustrates your unique book.</p>
-                                    </div>
-                                </div>
-                                <!-- STEP 5 -->
-                                <div class="row-list">
-                                    <div class="row-list-left">
-                                        <i class="fa-solid fa-5 fa-beat fa-xl icon-order" style="color: #800160;"></i>
-                                    </div>
-                                    <div class="row-list-middle">
-                                        <h3>Receive your magical storybook</h3>
-                                    </div>
-                                    <div class="row-list-right">
-                                        <p class="row-list-text">Delivered as a beautiful keepsake — ready to read and love forever!</p>
-                                    </div>
-                                </div>
+        </section>
+        <!-- Reasons to make an order -->
+        <section class="container">
+            <div class="row">
+                <h2>Why Create a Personalised Story?</h2>
+                <div class="reasons-container">
+                    <div class="reason-cards-container">
+                        <div class="card">
+                            <div class="card-title">
+                                <h3>Builds confidence and imagination</h3>
+                            </div>
+                            <div>
+                                <p>
+                                    <i class="fa-solid fa-dumbbell card-icon fa-2x"></i>
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <p>When your child sees themselves as the main character, their confidence and creativity soar!</p>
                             </div>
                         </div>
-                        <!-- Call to action -->
-                        <div class="container-button">
-                            <h2>Are you ready to create a unique book for your child?</h2>
-                            <div class="d-flex justify-content-center align-items-center gap-3">
-                                <i class="fa-solid fa-hand-point-right fa-bounce icon-hands"></i>
-                                <a href="form.html" class="btn btn-warning button-color">
-                                    Create Book Now
-                                </a>
-                                <i class="fa-solid fa-hand-point-left fa-bounce icon-hands"></i>
+                        <div class="card">
+                            <div class="card-title">
+                                <h3>A keepsake that lasts forever</h3>
+                            </div>
+                            <div>
+                                <p>
+                                    <i class="fa-solid fa-gem card-icon fa-2x"></i>
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <p>A personalised book is a timeless treasure your family will cherish for years to come.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-title">
+                                <h3>Made with love, just for your child</h3>
+                            </div>
+                            <div>
+                                <p>
+                                    <i class="fa-solid fa-hand-holding-heart card-icon fa-2x"></i>
+                                </p>
+                            </div>
+                            <div class="card-text">
+                                <p>Every story is written and illustrated to match your child’s unique personality, favourites, and smile.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- More information - link to FAQ, link to about us -->
-            <section class="container">
-                <div class="row question-home-container align-items-center">
-                    <!-- Picture -->
-                    <div class="col-sm-12 col-md-6">
-                        <img src="assets/images/question-picture3.jpg" alt="Child raising the hand to ask the question">
-                    </div>
-                    <!-- Subtitle -->
-                    <div class="col-sm-12 col-md-6">
-                        <div class="title-question">
-                            <h2>Have you got any question?</h2>
-                            <p id="title-question-p">We are more than happy to help. Please check Frequently Asked Questions or simply contact with us using easy to fill-up form</p>
-                            <div class="question-cards">
-                                <!-- Buttons - Bootstrap -->
-                                <div class="d-grid gap-2 col-6 mx-auto">
-                                    <a
-                                        href="#"
-                                        class="btn btn-outline-warning question-btn"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#faq-modal"
-                                    >FAQ</a>
-                                </div>
-                                <div class="d-grid gap-2 col-6 mx-auto">
-                                    <a
-                                        href="#"
-                                        class="btn btn-outline-warning question-btn"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#contact-modal"
-                                    >Contact Us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Contact details -->
-            <section class="container">
-                <div class="row contact-section">
-                    <!-- Address box Bootstrap dividing screen-->
-                    <div class="col-12 col-md-6">
-                        <div class="contact-card">
-                            <h2>Visit Us</h2>
-                            <p>
-                                <i class="fa-solid fa-location-dot contact-icon"></i>
-                            </p>
-                            <p class="text-contact-home">
-                                Burlington House
-                                <br>
-                                Piccadilly
-                                <br>
-                                London W1J 0BD
-                                <br>
-                                United Kingdom
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Opening times  -->
-                    <div class="col-12 col-md-6">
-                        <div class="contact-card">
-                            <h2>Opening Times</h2>
-                            <table class="opening-hours">
-                                <tbody>
-                                    <tr>
-                                        <th>Mon–Fri</th>
-                                        <td>10:00 – 18:00</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Saturday</th>
-                                        <td>10:00 – 17:00</td>
-                                    </tr>
-                                    <tr>
-                                        <th>Sunday</th>
-                                        <td>Closed</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <p class="opening-note">*Hours for the Burlington House selling space.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- Footer - Bootstrap -->
-        <footer>
-            <!-- Map -->
-            <div id="map-wrapper">
-                <iframe
-                    id="gmap_canvas"
-                    src="https://maps.google.com/maps?width=1920&amp;height=367&amp;hl=en&amp;q=Burlington%20House,%20Piccadilly%20London+(Dream%20Pages)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                    title="Map showing Dream Pages location in London"
-                    loading="lazy"
-                ></iframe>
             </div>
-            <!-- Navigation bar with links -->
-            <div class="container-footer">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
+        </section>
+        <!-- Carousel Bootstrap-->
+        <div class="carousel-wrapper">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/child-with-book-10.jpg" class="d-block w-100" alt="Children with the book smiling">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/child-with-book-4.jpg" class="d-block w-100" alt="baby with parent holding the book">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/child-with-book-9.jpg" class="d-block w-100" alt="child on the seaside reading the book">
+                        <div class="carousel-caption d-none d-md-block"></div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev"
+                >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next"
+                >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Steps to place an order -->
+        <section class="container">
+            <div class="row">
+                <div class="container-order">
+                    <!-- Section - place an order - steps -->
+                    <h2>How It Works — Create Your Story in 5 Easy Steps</h2>
+                    <!-- Picture as a background -->
+                    <div class="steps-image">
+                        <!-- List of steps -->
+                        <div class="row-list-container">
+                            <!-- STEP 1 -->
+                            <div class="row-list">
+                                <div class="row-list-left">
+                                    <i class="fa-solid fa-1 fa-beat fa-xl icon-order" style="color: #800160;"></i>
+                                </div>
+                                <div class="row-list-middle">
+                                    <h3>Pick a theme</h3>
+                                </div>
+                                <div class="row-list-right">
+                                    <p class="row-list-text">Choose a world your child will love — from magical forests to space adventures!</p>
+                                </div>
+                            </div>
+                            <!-- STEP 2 -->
+                            <div class="row-list">
+                                <div class="row-list-left">
+                                    <i class="fa-solid fa-2 fa-beat fa-xl icon-order" style="color: #800160;"></i>
+                                </div>
+                                <div class="row-list-middle">
+                                    <h3>Add personal details</h3>
+                                </div>
+                                <div class="row-list-right">
+                                    <p class="row-list-text">Tell us your child’s favourite colour, toy, food, or pet.</p>
+                                </div>
+                            </div>
+                            <!-- STEP 3 -->
+                            <div class="row-list">
+                                <div class="row-list-left">
+                                    <i class="fa-solid fa-3 fa-beat fa-xl icon-order" style="color: #800160;"></i>
+                                </div>
+                                <div class="row-list-middle">
+                                    <h3>Upload a picture</h3>
+                                </div>
+                                <div class="row-list-right">
+                                    <p class="row-list-text">Send a photo so our team can personalise the story and illustrations.</p>
+                                </div>
+                            </div>
+                            <!-- STEP 4 -->
+                            <div class="row-list">
+                                <div class="row-list-left">
+                                    <i class="fa-solid fa-4 fa-beat fa-xl icon-order" style="color: #800160;"></i>
+                                </div>
+                                <div class="row-list-middle">
+                                    <h3>We create the story</h3>
+                                </div>
+                                <div class="row-list-right">
+                                    <p class="row-list-text">Our creative team writes, designs, and illustrates your unique book.</p>
+                                </div>
+                            </div>
+                            <!-- STEP 5 -->
+                            <div class="row-list">
+                                <div class="row-list-left">
+                                    <i class="fa-solid fa-5 fa-beat fa-xl icon-order" style="color: #800160;"></i>
+                                </div>
+                                <div class="row-list-middle">
+                                    <h3>Receive your magical storybook</h3>
+                                </div>
+                                <div class="row-list-right">
+                                    <p class="row-list-text">Delivered as a beautiful keepsake — ready to read and love forever!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Call to action -->
+                    <div class="container-button">
+                        <h2>Are you ready to create a unique book for your child?</h2>
+                        <div class="d-flex justify-content-center align-items-center gap-3">
+                            <i class="fa-solid fa-hand-point-right fa-bounce icon-hands"></i>
+                            <a href="form.html" class="btn btn-warning button-color">
+                                Create Book Now
+                            </a>
+                            <i class="fa-solid fa-hand-point-left fa-bounce icon-hands"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- More information - link to FAQ, link to about us -->
+        <section class="container">
+            <div class="row question-home-container align-items-center">
+                <!-- Picture -->
+                <div class="col-sm-12 col-md-6">
+                    <img src="assets/images/question-picture3.jpg" alt="Child raising the hand to ask the question">
+                </div>
+                <!-- Subtitle -->
+                <div class="col-sm-12 col-md-6">
+                    <div class="title-question">
+                        <h2>Have you got any question?</h2>
+                        <p id="title-question-p">We are more than happy to help. Please check Frequently Asked Questions or simply contact with us using easy to fill-up form</p>
+                        <div class="question-cards">
+                            <!-- Buttons - Bootstrap -->
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-warning question-btn"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#faq-modal"
+                                >FAQ</a>
+                            </div>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-warning question-btn"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#contact-modal"
+                                >Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact details -->
+        <section class="container">
+            <div class="row contact-section">
+                <!-- Address box Bootstrap dividing screen-->
+                <div class="col-12 col-md-6">
+                    <div class="contact-card">
+                        <h2>Visit Us</h2>
+                        <p>
+                            <i class="fa-solid fa-location-dot contact-icon"></i>
+                        </p>
+                        <p class="text-contact-home">
+                            Burlington House
+                            <br>
+                            Piccadilly
+                            <br>
+                            London W1J 0BD
+                            <br>
+                            United Kingdom
+                        </p>
+                    </div>
+                </div>
+                <!-- Opening times  -->
+                <div class="col-12 col-md-6">
+                    <div class="contact-card">
+                        <h2>Opening Times</h2>
+                        <table class="opening-hours">
+                            <tbody>
+                                <tr>
+                                    <th>Mon–Fri</th>
+                                    <td>10:00 – 18:00</td>
+                                </tr>
+                                <tr>
+                                    <th>Saturday</th>
+                                    <td>10:00 – 17:00</td>
+                                </tr>
+                                <tr>
+                                    <th>Sunday</th>
+                                    <td>Closed</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="opening-note">*Hours for the Burlington House selling space.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer - Bootstrap -->
+    <footer>
+        <!-- Map -->
+        <div id="map-wrapper">
+            <iframe
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?width=1920&amp;height=367&amp;hl=en&amp;q=Burlington%20House,%20Piccadilly%20London+(Dream%20Pages)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                title="Map showing Dream Pages location in London"
+                loading="lazy"
+            ></iframe>
+        </div>
+        <!-- Navigation bar with links -->
+        <div class="container-footer">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#delivery-modal"
+                    >Delivery & Return Information</a>
+                </li>
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#privacy-modal"
+                    >Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#terms-modal"
+                    >Terms & Conditions</a>
+                </li>
+                <li class="nav-item">
+                    <a
+                        class="nav-link"
+                        href="#"
+                        data-bs-toggle="modal"
+                        data-bs-target="#contact-modal"
+                    >Contact us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- License details -->
+        <div class="footer-info">
+            <div class="footer-info2">All rights reserved. This website is a student project created for educational purposes only.</div>
+            <div class="footer-info2">@2025 Katarzyna Gawronska</div>
+        </div>
+    </footer>
+    <!-- Modals section - Bootstrap -->
+    <!-- Delivery modal -->
+    <div
+        class="modal fade"
+        id="delivery-modal"
+        tabindex="-1"
+        aria-labelledby="deliveryModalLabel"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="deliveryModalLabel">Delivery & Returns Information</h2>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Delivery information -->
+                    <h3>Delivery</h3>
+                    <ul>
+                        <li>Each personalised storybook is created individually for your child.</li>
+                        <li>Production usually takes 7–10 days after receiving all details and your approval of the draft.</li>
+                        <li>You will receive a digital version (PDF) by email first.</li>
+                        <li>
+                            If you order a printed copy, delivery time depends on your location:
+                            <ul>
+                                <li>UK & Europe: 5–10 business days</li>
+                                <li>Worldwide: 10–20 business days</li>
+                            </ul>
+                        </li>
+                        <li>You will receive a confirmation email once your order has been shipped.</li>
+                    </ul>
+                    <!-- Returns information -->
+                    <h3>Returns & Replacements</h3>
+                    <p>Because every book is custom-made and unique, we are unable to accept general returns or exchanges.</p>
+                    <p>However, we always want you to be happy with your story!</p>
+                    <p>We will offer a free replacement or digital correction if:</p>
+                    <ul>
+                        <li>There’s a printing error or damaged item on arrival.</li>
+                        <li>We’ve made a mistake in your personalised details.</li>
+                    </ul>
+                    <p>If you notice an issue, please contact us within 7 days of receiving your order at [your email address] and include your order number and a short description (or a photo, if relevant).</p>
+                    <h3>Cancellations</h3>
+                    <p>
+                        You may cancel your order within 24 hours of placing it — before we begin creating your personalised story.
+                            Once the story design has started, cancellation may not be possible.
+                    </p>
+                    <h3>Contact</h3>
+                    <p>
+                        If you have any questions about your delivery or order, please reach out to us
+                        <!-- Open new modal for completing contact us form -->
                         <a
-                            class="nav-link"
-                            href="#"
-                            data-bs-toggle="modal"
-                            data-bs-target="#delivery-modal"
-                        >Delivery & Return Information</a>
-                    </li>
-                    <li class="nav-item">
-                        <a
-                            class="nav-link"
-                            href="#"
-                            data-bs-toggle="modal"
-                            data-bs-target="#privacy-modal"
-                        >Privacy Policy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a
-                            class="nav-link"
-                            href="#"
-                            data-bs-toggle="modal"
-                            data-bs-target="#terms-modal"
-                        >Terms & Conditions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a
-                            class="nav-link"
                             href="#"
                             data-bs-toggle="modal"
                             data-bs-target="#contact-modal"
-                        >Contact us</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- License details -->
-            <div class="footer-info">
-                <div class="footer-info2">All rights reserved. This website is a student project created for educational purposes only.</div>
-                <div class="footer-info2">@2025 Katarzyna Gawronska</div>
-            </div>
-        </footer>
-        <!-- Modals section - Bootstrap -->
-        <!-- Delivery modal -->
-        <div
-            class="modal fade"
-            id="delivery-modal"
-            tabindex="-1"
-            aria-labelledby="deliveryModalLabel"
-            aria-hidden="true"
-        >
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title" id="deliveryModalLabel">Delivery & Returns Information</h2>
-                        <button
-                            type="button"
-                            class="btn-close"
                             data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- Delivery information -->
-                        <h3>Delivery</h3>
-                        <ul>
-                            <li>Each personalised storybook is created individually for your child.</li>
-                            <li>Production usually takes 7–10 days after receiving all details and your approval of the draft.</li>
-                            <li>You will receive a digital version (PDF) by email first.</li>
-                            <li>
-                                If you order a printed copy, delivery time depends on your location:
-                                <ul>
-                                    <li>UK & Europe: 5–10 business days</li>
-                                    <li>Worldwide: 10–20 business days</li>
-                                </ul>
-                            </li>
-                            <li>You will receive a confirmation email once your order has been shipped.</li>
-                        </ul>
-                        <!-- Returns information -->
-                        <h3>Returns & Replacements</h3>
-                        <p>Because every book is custom-made and unique, we are unable to accept general returns or exchanges.</p>
-                        <p>However, we always want you to be happy with your story!</p>
-                        <p>We will offer a free replacement or digital correction if:</p>
-                        <ul>
-                            <li>There’s a printing error or damaged item on arrival.</li>
-                            <li>We’ve made a mistake in your personalised details.</li>
-                        </ul>
-                        <p>If you notice an issue, please contact us within 7 days of receiving your order at [your email address] and include your order number and a short description (or a photo, if relevant).</p>
-                        <h3>Cancellations</h3>
-                        <p>
-                            You may cancel your order within 24 hours of placing it — before we begin creating your personalised story.
-                            Once the story design has started, cancellation may not be possible.
-                        </p>
-                        <h3>Contact</h3>
-                        <p>
-                            If you have any questions about your delivery or order, please reach out to us
-                            <!-- Open new modal for completing contact us form -->
-                            <a
-                                href="#"
-                                data-bs-toggle="modal"
-                                data-bs-target="#contact-modal"
-                                data-bs-dismiss="modal"
-                            >here</a>
-                        </p>
-                        <p>We’ll respond as soon as possible — usually within 1–2 working days.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
+                        >here</a>
+                    </p>
+                    <p>We’ll respond as soon as possible — usually within 1–2 working days.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-        <!-- Privacy Policy Modal -->
-        <div
-            class="modal fade"
-            id="privacy-modal"
-            tabindex="-1"
-            aria-labelledby="deliveryModalLabel"
-            aria-hidden="true"
-        >
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title" id="privacyModalLabel">Privacy Policy</h2>
-                        <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- Privacy Policy information -->
-                        <h3>Privacy Policy</h3>
-                        <p>
-                            At Dream Pages, we care deeply about your privacy and the safety of your child’s information.
+    </div>
+    <!-- Privacy Policy Modal -->
+    <div
+        class="modal fade"
+        id="privacy-modal"
+        tabindex="-1"
+        aria-labelledby="deliveryModalLabel"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="privacyModalLabel">Privacy Policy</h2>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Privacy Policy information -->
+                    <h3>Privacy Policy</h3>
+                    <p>
+                        At Dream Pages, we care deeply about your privacy and the safety of your child’s information.
                             This Privacy Policy explains how we collect, use, and protect the data you share with us.
-                        </p>
-                        <ol>
-                            <li>
-                                <h4>
-                                    Information We Collect
-                                </h4>
-                                <p>We collect only the information needed to create your personalised storybook, including:</p>
-                                <ul>
-                                    <li>Parent or guardian’s name and contact details</li>
-                                    <li>Child’s first name, age, and favourite things</li>
-                                    <li>A photo of the child (optional, for illustration purposes only)</li>
-                                </ul>
-                            </li>
-                            <li>
-                                <h4>
-                                    How We Use the Information
-                                </h4>
-                                <p>Your data is used only to create your child’s personalised storybook.</p>
-                                <p>We do not use it for marketing, nor do we share it with any third parties.</p>
-                                <p>The child’s photo is used only to create their illustrated likeness in the story.</p>
-                            </li>
-                            <li>
-                                <h4>
-                                    How We Store and Protect Data
-                                </h4>
-                                <p>You can request:</p>
-                                <ul>
-                                    <li>Access to your data</li>
-                                    <li>Correction of any information</li>
-                                    <li>Deletion of your data and photo at any time</li>
-                                </ul>
-                                    <p>
-                                    To make such a request, please contact us
-                                    <!-- Open new modal for completing contact us form -->
-                                    <a
-                                        href="#"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#contact-modal"
-                                        data-bs-dismiss="modal"
-                                    >here</a>
-                                        .
-                                    </p>
-                            </li>
-                            <li>
-                                <h4>
-                                    Consent
-                                </h4>
-                                <p>By submitting your details through our form, you give permission for your data and your child’s photo to be processed solely for creating the personalised storybook.</p>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
+                    </p>
+                    <ol>
+                        <li>
+                            <h4>
+                                Information We Collect
+                            </h4>
+                            <p>We collect only the information needed to create your personalised storybook, including:</p>
+                            <ul>
+                                <li>Parent or guardian’s name and contact details</li>
+                                <li>Child’s first name, age, and favourite things</li>
+                                <li>A photo of the child (optional, for illustration purposes only)</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>
+                                How We Use the Information
+                            </h4>
+                            <p>Your data is used only to create your child’s personalised storybook.</p>
+                            <p>We do not use it for marketing, nor do we share it with any third parties.</p>
+                            <p>The child’s photo is used only to create their illustrated likeness in the story.</p>
+                        </li>
+                        <li>
+                            <h4>
+                                How We Store and Protect Data
+                            </h4>
+                            <p>You can request:</p>
+                            <ul>
+                                <li>Access to your data</li>
+                                <li>Correction of any information</li>
+                                <li>Deletion of your data and photo at any time</li>
+                            </ul>
+                            <p>
+                                To make such a request, please contact us
+                                <!-- Open new modal for completing contact us form -->
+                                <a
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#contact-modal"
+                                    data-bs-dismiss="modal"
+                                >here</a>
+                                .
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                Consent
+                            </h4>
+                            <p>By submitting your details through our form, you give permission for your data and your child’s photo to be processed solely for creating the personalised storybook.</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-        <!-- Terms & Conditions Modal -->
-        <div
-            class="modal fade"
-            id="terms-modal"
-            tabindex="-1"
-            aria-labelledby="termsModalLabel"
-            aria-hidden="true"
-        >
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title" id="termsModalLabel">Terms & Conditions</h2>
-                        <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- Terms & Conditions information -->
-                        <h3>Terms & Conditions</h3>
-                        <p>
-                            Welcome to Dream Pages!
-                        </p>
-                        <p>By using our website and placing an order for a personalised storybook, you agree to the following terms and conditions.</p>
-                        <p>These are designed to keep everything clear and fair for everyone.</p>
-                        <ol>
-                            <li>
-                                <h4>
-                                    Personalised Products
-                                </h4>
-                                <p>Each book is created especially for your child, based on the details you provide (name, favourite things, photo, etc.).</p>
-                                <p>Because every book is unique, it cannot be resold or returned unless there is a mistake on our part.</p>
-                            </li>
-                            <li>
-                                <h4>
-                                    Accuracy of Information
-                                </h4>
-                                <p>Please double-check that all details you send us (such as spelling of names and preferences) are correct.</p>
-                                <p>We create the story exactly as provided, and we cannot take responsibility for errors submitted by the customer.</p>
-                            </li>
-                            <li>
-                                <h4>
-                                    Creative Rights
-                                </h4>
-                                <p>All stories, illustrations, and designs are original works created by our team.</p>
-                                <p>
-                                    You are welcome to print, share, and enjoy your personalised book for personal use,
+    </div>
+    <!-- Terms & Conditions Modal -->
+    <div
+        class="modal fade"
+        id="terms-modal"
+        tabindex="-1"
+        aria-labelledby="termsModalLabel"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="termsModalLabel">Terms & Conditions</h2>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Terms & Conditions information -->
+                    <h3>Terms & Conditions</h3>
+                    <p>
+                        Welcome to Dream Pages!
+                    </p>
+                    <p>By using our website and placing an order for a personalised storybook, you agree to the following terms and conditions.</p>
+                    <p>These are designed to keep everything clear and fair for everyone.</p>
+                    <ol>
+                        <li>
+                            <h4>
+                                Personalised Products
+                            </h4>
+                            <p>Each book is created especially for your child, based on the details you provide (name, favourite things, photo, etc.).</p>
+                            <p>Because every book is unique, it cannot be resold or returned unless there is a mistake on our part.</p>
+                        </li>
+                        <li>
+                            <h4>
+                                Accuracy of Information
+                            </h4>
+                            <p>Please double-check that all details you send us (such as spelling of names and preferences) are correct.</p>
+                            <p>We create the story exactly as provided, and we cannot take responsibility for errors submitted by the customer.</p>
+                        </li>
+                        <li>
+                            <h4>
+                                Creative Rights
+                            </h4>
+                            <p>All stories, illustrations, and designs are original works created by our team.</p>
+                            <p>
+                                You are welcome to print, share, and enjoy your personalised book for personal use,
                                     but reproduction or resale without permission is not allowed.
-                                </p>
-                            </li>
-                            <li>
-                                <h4>Photos and Data</h4>
-                                <p>By submitting your child’s photo or details, you give us permission to use them only for creating your personalised storybook.</p>
-                                <p>
-                                    All personal data and images are securely handled in line with our
-                                    <!-- Open new modal - privacy policy -->
-                                    <a
-                                        href="#"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#privacy-modal"
-                                        data-bs-dismiss="modal"
-                                    >Privacy Policy</a>
-                                    and deleted after your book is completed.
-                                </p>
-                            </li>
-                            <li>
-                                <h4>
-                                    Delivery and Cancellations
-                                </h4>
-                                <p>
-                                    Please refer to our
-                                    <!-- Open new modal - delivery and return information -->
-                                    <a
-                                        href="#"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#delivery-modal"
-                                        data-bs-dismiss="modal"
-                                    >Delivery & Returns Information</a>
-                                    page for information about production times, cancellations, and refunds.
+                            </p>
+                        </li>
+                        <li>
+                            <h4>Photos and Data</h4>
+                            <p>By submitting your child’s photo or details, you give us permission to use them only for creating your personalised storybook.</p>
+                            <p>
+                                All personal data and images are securely handled in line with our
+                                <!-- Open new modal - privacy policy -->
+                                <a
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#privacy-modal"
+                                    data-bs-dismiss="modal"
+                                >Privacy Policy</a>
+                                and deleted after your book is completed.
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                Delivery and Cancellations
+                            </h4>
+                            <p>
+                                Please refer to our
+                                <!-- Open new modal - delivery and return information -->
+                                <a
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#delivery-modal"
+                                    data-bs-dismiss="modal"
+                                >Delivery & Returns Information</a>
+                                page for information about production times, cancellations, and refunds.
                                 We aim to deliver your book as soon as possible, but times may vary depending on your location and printing service.
-                                </p>
-                            </li>
-                            <li>
-                                <h4>
-                                    Educational Purpose (Optional Clause)
-                                </h4>
-                                <p>
-                                    This website and service are part of a student project created for educational purposes.
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                Educational Purpose (Optional Clause)
+                            </h4>
+                            <p>
+                                This website and service are part of a student project created for educational purposes.
                                     No personal data will be used for commercial activity.
-                                </p>
-                            </li>
-                            <li>
-                                <h4>
-                                    Contact Us
-                                </h4>
-                                <p>
-                                    If you have any questions, concerns, or feedback, please contact us at:
-                                    <!-- Open new modal for completing contact us form -->
-                                    <a
-                                        href="#"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#contact-modal"
-                                        data-bs-dismiss="modal"
-                                    >here</a>
-                                    .
-                                </p>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                Contact Us
+                            </h4>
+                            <p>
+                                If you have any questions, concerns, or feedback, please contact us at:
+                                <!-- Open new modal for completing contact us form -->
+                                <a
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#contact-modal"
+                                    data-bs-dismiss="modal"
+                                >here</a>
+                                .
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-        <!-- Contact Us Modal -->
-        <div
-            class="modal fade"
-            id="contact-modal"
-            tabindex="-1"
-            aria-labelledby="contactModalLabel"
-            aria-hidden="true"
-        >
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title" id="contactModalLabel">Contact Us</h2>
-                        <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- Contact Us body -->
-                        <h3>We’d Love to Hear From You!</h3>
-                        <p>
-                            Have a question about your personalised storybook? Need help with an order?  
+    </div>
+    <!-- Contact Us Modal -->
+    <div
+        class="modal fade"
+        id="contact-modal"
+        tabindex="-1"
+        aria-labelledby="contactModalLabel"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="contactModalLabel">Contact Us</h2>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Contact Us body -->
+                    <h3>We’d Love to Hear From You!</h3>
+                    <p>
+                        Have a question about your personalised storybook? Need help with an order?  
                     Or simply want to say hello?
-                        </p>
-                        <p>
-                            You can reach our friendly Dream Pages team anytime at:
-                        </p>
-                        <h4>Email</h4>
-                        <p>
-                            <strong>admin@dreampages.com</strong>
-                            <br>
-                            We aim to reply within
-                            <strong>1–2 working days</strong>
-                            .
-                        </p>
-                        <h4>Visit Us</h4>
-                        <p>
-                            Dream Pages Creative Studio
-                            <br>
-                            12 Storyteller Lane
-                            <br>
-                            London, UK
-                            <br>
-                            <em>(Visits by appointment only)</em>
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
+                    </p>
+                    <p>
+                        You can reach our friendly Dream Pages team anytime at:
+                    </p>
+                    <h4>Email</h4>
+                    <p>
+                        <strong>admin@dreampages.com</strong>
+                        <br>
+                        We aim to reply within
+                        <strong>1–2 working days</strong>
+                        .
+                    </p>
+                    <h4>Visit Us</h4>
+                    <p>
+                        Dream Pages Creative Studio
+                        <br>
+                        12 Storyteller Lane
+                        <br>
+                        London, UK
+                        <br>
+                        <em>(Visits by appointment only)</em>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-        <!-- FAQ Modal -->
-        <div
-            class="modal fade"
-            id="faq-modal"
-            tabindex="-1"
-            aria-labelledby="faqModalLabel"
-            aria-hidden="true"
-        >
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title" id="faqModalLabel">Frequently Asked Questions (FAQ)</h2>
-                        <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- FAQ information -->
-                        <h3>Frequently Asked Questions (FAQ)</h3>
-                        <p>
-                            We’re here to make your experience simple, fun, and stress-free.
-                        </p>
-                        <p>
-                            Below you’ll find answers to the most common questions parents ask about creating a personalised storybook.
-                        </p>
-                        <p>
-                            If you don’t see what you’re looking for, feel free to contact us — we’re always happy to help!
-                        </p>
-                        <p>By using our website and placing an order for a personalised storybook, you agree to the following terms and conditions.</p>
-                        <ol>
-                            <li>
-                                <h4>
-                                    How does it work?
-                                </h4>
-                                <p>You share your child’s details — name, favourite things, and photo — and our team creates a one-of-a-kind story where your child is the main character.</p>
-                            </li>
-                            <li>
-                                <h4>
-                                    How long does it take to receive the story?
-                                </h4>
-                                <p>We usually complete each personalised story within 7–10 days. You’ll receive a digital version first, and a printed copy (if ordered) shortly after.</p>
-                            </li>
-                            <li>
-                                <h4>
-                                    Is my child’s photo safe?
-                                </h4>
-                                <p>Yes. We use your child’s photo only to create their illustrated likeness in the story. The image is stored securely and deleted once the book is finished.</p>
-                            </li>
-                            <li>
-                                <h4>
-                                    Can I request changes?
-                                </h4>
-                                <p>
-                                    Of course! You’ll have a chance to review the draft before we finalise it.
-                                </p>
-                            </li>
-                            <li>
-                                <h4>
-                                    What if I don’t want to upload a photo?
-                                </h4>
-                                <p>
-                                    That’s totally fine. We can still create a story based on your description of your child (hair colour, age, favourite clothes, etc.).
-                                </p>
-                            </li>
-                            <li>
-                                <h4>
-                                    Do you ship worldwide?
-                                </h4>
-                                <p>
-                                    Of course! You’ll have a chance to review the draft before we finalise it.
-                                </p>
-                            </li>
-                            <li>
-                                <h4>
-                                    Contact Us
-                                </h4>
-                                <p>
-                                    If you have any questions, concerns, or feedback, please contact us at:
-                                    <!-- Open new modal for completing contact us form -->
-                                    <a
-                                        href="#"
-                                        data-bs-toggle="modal"
-                                        data-bs-target="#contact-modal"
-                                        data-bs-dismiss="modal"
-                                    >here</a>
-                                    .
-                                </p>
-                            </li>
-                        </ol>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
+    </div>
+    <!-- FAQ Modal -->
+    <div
+        class="modal fade"
+        id="faq-modal"
+        tabindex="-1"
+        aria-labelledby="faqModalLabel"
+        aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="faqModalLabel">Frequently Asked Questions (FAQ)</h2>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <!-- FAQ information -->
+                    <h3>Frequently Asked Questions (FAQ)</h3>
+                    <p>
+                        We’re here to make your experience simple, fun, and stress-free.
+                    </p>
+                    <p>
+                        Below you’ll find answers to the most common questions parents ask about creating a personalised storybook.
+                    </p>
+                    <p>
+                        If you don’t see what you’re looking for, feel free to contact us — we’re always happy to help!
+                    </p>
+                    <p>By using our website and placing an order for a personalised storybook, you agree to the following terms and conditions.</p>
+                    <ol>
+                        <li>
+                            <h4>
+                                How does it work?
+                            </h4>
+                            <p>You share your child’s details — name, favourite things, and photo — and our team creates a one-of-a-kind story where your child is the main character.</p>
+                        </li>
+                        <li>
+                            <h4>
+                                How long does it take to receive the story?
+                            </h4>
+                            <p>We usually complete each personalised story within 7–10 days. You’ll receive a digital version first, and a printed copy (if ordered) shortly after.</p>
+                        </li>
+                        <li>
+                            <h4>
+                                Is my child’s photo safe?
+                            </h4>
+                            <p>Yes. We use your child’s photo only to create their illustrated likeness in the story. The image is stored securely and deleted once the book is finished.</p>
+                        </li>
+                        <li>
+                            <h4>
+                                Can I request changes?
+                            </h4>
+                            <p>
+                                Of course! You’ll have a chance to review the draft before we finalise it.
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                What if I don’t want to upload a photo?
+                            </h4>
+                            <p>
+                                That’s totally fine. We can still create a story based on your description of your child (hair colour, age, favourite clothes, etc.).
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                Do you ship worldwide?
+                            </h4>
+                            <p>
+                                Of course! You’ll have a chance to review the draft before we finalise it.
+                            </p>
+                        </li>
+                        <li>
+                            <h4>
+                                Contact Us
+                            </h4>
+                            <p>
+                                If you have any questions, concerns, or feedback, please contact us at:
+                                <!-- Open new modal for completing contact us form -->
+                                <a
+                                    href="#"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#contact-modal"
+                                    data-bs-dismiss="modal"
+                                >here</a>
+                                .
+                            </p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
-        <!-- Bootstrap JS script -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <!-- Audio - volumn down - Mozilla -->
-        <script>
+    </div>
+    <!-- Bootstrap JS script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Audio - volumn down - Mozilla -->
+    <script>
             const audio = document.getElementById("myAudio");
             audio.volume = 0.25;
-        </script>
-    </body>
+    </script>
+</body>
 </html>
