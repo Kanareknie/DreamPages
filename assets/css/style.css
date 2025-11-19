@@ -1002,6 +1002,14 @@ i {
     box-shadow: 0 0 0 2px rgba(240, 32, 91, 0.2);  /* soft pink glow */
 }
 
+/* Add red asterisk after required labels - from https://www.w3.org/TR/selectors-4/#relational */
+label[for]:has(+ input[required])::after,
+label[for]:has(+ select[required])::after {
+    content: " *";
+    color: #f0205b;
+    font-weight: bold;
+}
+
 /* MEDIA QUERY - TABLET */
 
 @media (min-width: 768px) and (max-width: 991px) {
