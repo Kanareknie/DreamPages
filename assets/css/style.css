@@ -25,15 +25,14 @@ main {
 /*  CSS Variables */
 
 :root {
-    --primary-font: 'Shrikhand' regular;
-    --secondary-font: 'Montserrat';
+    --primary-font: 'Shrikhand', cursive;
+    --secondary-font: 'Montserrat', sans-serif;
     --primary-color: #f0205b;
     --secondary-color: #800160;
     --highlight-color: #ff9473;
     --highlight-color-light: #f37499;
     --background-colour: #ebe5e7;
 }
-
 
 h1 {
     font-family: var(--primary-font);
