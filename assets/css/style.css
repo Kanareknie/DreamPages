@@ -556,8 +556,8 @@ i {
 }
 
 .button-color {
-    background-color: #f0205b;
-    border: 2px solid #c70c63;
+    background-color: #800160;
+    border: 2px solid #420332;
     color: #ffffff;
     font-weight: 570;
     margin-bottom: 20px;
@@ -1320,8 +1320,8 @@ i {
 /* Modal closing button */
 
 .btn-secondary {
-    background-color: #ec2860;
-    border: 2px solid #c70c63;
+    background-color: #800160;
+    border: 2px solid #420332;
     color: #ffffff;
     font-weight: 570;
     margin-bottom: 20px;
