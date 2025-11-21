@@ -1257,7 +1257,6 @@ label[for]:has(+ select[required])::after {
 .card-about-us h4 {
     background-color: #e81a54;
     color: #ffffff;
-    font-weight: 700;
 
 }
 
