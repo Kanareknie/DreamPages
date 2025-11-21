@@ -895,15 +895,13 @@ i {
 
     /* -- CONTACT SECTION — bg image -- */
     .contact-section {
-        margin-top: 60px;
-        margin-bottom: 60px;
-        padding: 40px 20px;
-        background-image:
-            linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)),
-            url('../images/desk3.jpg');
+
         background-size: cover;
         background-position: center;
-        border-radius: 20px;
+        border: 1px solid #f0205b;
+        box-shadow: 1px 5px #ebe5e7;
+        padding: 30px 20px;
+        border-radius: 12px;
     }
 
     .contact-card {
